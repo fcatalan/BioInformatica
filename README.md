@@ -18,7 +18,7 @@ En una terminal abrir la carpeta app-bioinformatica y ejecutar el siguiente coma
 npm install
 ```
 
-Con esto se descargaran las dependencias del archivo package.json
+> Con esto se descargaran las dependencias del archivo package.json
 
 Sobre la misma terminal y carpeta abierta ejucutar el siguiente comando:
 
@@ -26,7 +26,7 @@ Sobre la misma terminal y carpeta abierta ejucutar el siguiente comando:
 bower install
 ```
 
-Con esto se descargaran las dependencias del archivo bower.json
+> Con esto se descargaran las dependencias del archivo bower.json
 
 # Instalar Yeoman
 
