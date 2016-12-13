@@ -12,21 +12,21 @@ git clone https://github.com/fcatalan/BioInformatica.git
 ```
 # Descargar Dependencias
 
+> Descargar dependencias del archivo package.json
+
 En una terminal abrir la carpeta app-bioinformatica y ejecutar el siguiente comando:
 
 ```
 npm install
 ```
 
-> Con esto se descargaran las dependencias del archivo package.json
+> Descargar dependencias del archivo bower.json
 
 Sobre la misma terminal y carpeta abierta ejucutar el siguiente comando:
 
 ```
 bower install
 ```
-
-> Con esto se descargaran las dependencias del archivo bower.json
 
 # Instalar Yeoman
 
