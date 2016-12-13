@@ -16,7 +16,7 @@ Cuando se realiza un cambio se debe agregar:
 git add -A
 ```
 
-Para guardar los cambios en la version local de debe realizar commit
+Para guardar los cambios en la version local se debe realizar commit
 ```
 git commit -m "[Comentario]"
 ```
