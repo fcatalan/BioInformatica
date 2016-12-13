@@ -1,7 +1,7 @@
 # BioInformatica
 > Proyecto final de BioInformatica.
 
-Instalar Node version v6.9.2 o v7.2.1, para generar el proyecto se instalo la v7.2.1  de la siguiente URL: [Nodejs.org/en/](https://nodejs.org/en/)
+Instalar Node versión v6.9.2 o v7.2.1, para generar el proyecto se instalo la v7.2.1  de la siguiente URL: [Nodejs.org/en/](https://nodejs.org/en/)
 
 # Comandos de git basicos
 
@@ -16,7 +16,7 @@ Cuando se realiza un cambio se debe agregar:
 git add -A
 ```
 
-Para guardar los cambios en la version local se debe realizar commit
+Para guardar los cambios en la versión local se debe realizar commit
 ```
 git commit -m "[Comentario]"
 ```
@@ -26,7 +26,7 @@ Para subir los cambios al servidor
 git push
 ```
 
-Para descagar la ultima version del repositorio
+Para descagar la ultima versión del repositorio
 ```
 git pull
 ```
