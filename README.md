@@ -20,3 +20,18 @@ instalar `yo`, `grunt-cli`, `bower`, `generator-angular` y `generator-karma`:
 npm install -g grunt-cli bower yo generator-karma generator-angular
 ```
 
+# Generar un proyecto con Yeoman
+
+Crear una carpeta:
+
+```
+mkdir my-new-project && cd $_
+``` 
+
+Ejectar en la consola `yo angular`, y escribir el nombre de la app:
+```
+yo angular [app-name]
+```
+
+Ejcutar `grunt` luego para construir y visualizar la aplicación ejecutar `grunt serve`
+
