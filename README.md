@@ -3,6 +3,39 @@
 
 Instalar Node version v6.9.2 o v7.2.1, para generar el proyecto se instalo la v7.2.1  de la siguiente URL: [Nodejs.org/en/](https://nodejs.org/en/)
 
+# Comandos de git basicos
+
+Clonar un proyecto: 
+```
+git clone [url del proyecto]
+```
+
+Cuando se realiza un cambio se debe agregar:
+
+```
+git add -A
+```
+
+Para guardar los cambios en la version local de debe realizar commit
+```
+git commit -m "[Comentario]"
+```
+
+Para subir los cambios al servidor
+```
+git push
+```
+
+Para descagar la ultima version del repositorio
+```
+git pull
+```
+
+Para visualizar el estado del repositorio y modificaciones realizadas
+```
+git status
+```
+
 # Descargar el Proyecto
 
 Crear una carpeta y clonar el proyecto de gibhub con el siguiente comando:
@@ -10,6 +43,15 @@ Crear una carpeta y clonar el proyecto de gibhub con el siguiente comando:
 ```
 git clone https://github.com/fcatalan/BioInformatica.git
 ```
+
+# Instalar Herramientas
+
+instalar `yo`, `grunt-cli`, `bower`, `generator-angular` y `generator-karma`:
+```
+npm install -g grunt-cli bower yo generator-karma generator-angular
+```
+
+
 # Descargar Dependencias
 
 > Descargar dependencias del archivo package.json
@@ -36,13 +78,6 @@ Comando de instalación, en la instrucción de mas abajo instala todo
 
 ```
 npm install -g yo
-```
-
-# Instalar Herramientas
-
-instalar `yo`, `grunt-cli`, `bower`, `generator-angular` y `generator-karma`:
-```
-npm install -g grunt-cli bower yo generator-karma generator-angular
 ```
 
 # Generar un Proyecto con Yeoman
