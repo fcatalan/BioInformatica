@@ -30,7 +30,7 @@ bower install
 
 # Instalar Yeoman
 
-Docuemtación y para que sirve ver pagina: [Yeoman.io](http://yeoman.io/generators)
+Docuemtación y para que sirve ver pagina: [Yeoman.io](http://yeoman.io/)
 
 Comando de instalación, en la instrucción de mas abajo instala todo
 
