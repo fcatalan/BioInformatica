@@ -47,6 +47,8 @@ npm install -g grunt-cli bower yo generator-karma generator-angular
 
 # Generar un Proyecto con Yeoman
 
+> Pagina donde se encuentran todos los proyectos que se pueden generar con  [Yeoman-generator](http://yeoman.io/generators/) 
+
 Crear una carpeta:
 
 ```
