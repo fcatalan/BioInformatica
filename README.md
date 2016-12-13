@@ -74,7 +74,7 @@ bower install
 
 Docuemtación y para que sirve ver pagina: [Yeoman.io](http://yeoman.io/)
 
-Comando de instalación, en la instrucción de mas abajo instala todo
+Comando de instalación:
 
 ```
 npm install -g yo
