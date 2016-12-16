@@ -1,13 +1,6 @@
 'use strict';
 
-/**
- * @ngdoc overview
- * @name appBioinformaticaApp
- * @description
- * # appBioinformaticaApp
- *
- * Main module of the application.
- */
+
 angular
   .module('appBioinformaticaApp', [
     'ngCookies',

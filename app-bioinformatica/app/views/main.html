@@ -1,23 +1,36 @@
-<div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
-</div>
 
-<div class="row marketing">
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-  </p>
+  <div class="row">
+    <form class="form" ng-submit="add(files)">
+      <div class="form-group">
+        <label class="control-label">Select Matriz</label>
+        <input id="upload_file" ng-file-model="files" type="file" class="file" data-preview-file-type="text">
+      </div>
+    </form>
+  </div>
 
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
+  <div class="row">
+    <ul>
+      <li ng-repeat="names in files_names">
+        {{names.text}}
+      </li>
+    </ul>
+  </div>
 
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
-</div>
+  <div class="row">
+    <h3>Graph Cluster</h3>
+    <div id="node_graph" style="width:65em; height:40em"></div>
+  </div>
+
+  <div class="row">
+    <h3>Eisen Plot</h3>
+    <div style="display: inline-block; text-align: center;">
+      <!--The DIV for the Diagram needs an explicit size or else we won't see anything.
+           Also add a border to help see the edges. -->
+      <div id="eisen_plot" style="background-color: #3D3D3D; border: solid 1px black; width:65em; height:40em"></div>
+      <!-- This sibling of the Diagram provides information when the mouse is near a Diagram Node -->
+      <div id="infoBoxHolder">
+        <!-- Initially Empty, it is populated when updateInfoBox is called -->
+      </div>
+
+    </div>
+  </div>

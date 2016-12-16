@@ -4,15 +4,18 @@
     <meta charset="utf-8">
     <title></title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link href="bower_components/bootstrap-fileinput/css/fileinput.min.css" media="all" rel="stylesheet" type="text/css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
+    <!--<link rel="stylesheet" href="styles/main.css">-->
+    <link rel="stylesheet" href="assets/css/goSamples.css">
+    <link rel="stylesheet" href="assets/css/eisen_plot.css">
     <!-- endbuild -->
   </head>
   <body ng-app="appBioinformaticaApp">
@@ -22,39 +25,28 @@
 
     <!-- Add your site or application content here -->
     <div class="header">
-      <div class="navbar navbar-default" role="navigation">
+      <nav class="navbar navbar-default">
         <div class="container">
+
           <div class="navbar-header">
-
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-
-            <a class="navbar-brand" href="#/">appBioinformatica</a>
+            <a class="navbar-brand" href="#">Clustering</a>
           </div>
 
-          <div class="collapse navbar-collapse" id="js-navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <img alt="UdeSantiago" height="50" width="150" src="http://grupomontevideo.org/sitio/wp-content/uploads/2015/12/usach.png" style="float: none;">
+          </ul>
 
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#/">Home</a></li>
-              <li><a ng-href="#/about">About</a></li>
-              <li><a ng-href="#/">Contact</a></li>
-            </ul>
-          </div>
         </div>
-      </div>
+      </nav>
     </div>
 
     <div class="container">
-    <div ng-view=""></div>
+      <div ng-view=""></div>
     </div>
 
     <div class="footer">
       <div class="container">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+        <p>from USACH Team</p>
       </div>
     </div>
 
@@ -80,13 +72,21 @@
     <script src="bower_components/angular-resource/angular-resource.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/bootstrap-fileinput/js/plugins/purify.min.js"></script>
+    <script src="bower_components/bootstrap-fileinput/js/fileinput.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/about.js"></script>
+    <script src="assets/js/goSamples.js"></script>
+    <script src="assets/js/go.js"></script>
+    <script src="assets/js/interactive.js"></script>
+    <script src="assets/js/eisent_plot.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/about.js"></script>
+    <script src="scripts/directives/main.js"></script>
+        <!--<script src="http://gojs.net/latest/release/go.js"></script>-->
         <!-- endbuild -->
 </body>
 </html>
