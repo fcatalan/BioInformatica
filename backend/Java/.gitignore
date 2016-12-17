@@ -1,5 +1,1 @@
-/metadata
-/dist
-/.metadata
-/.sass-cache
-/RemoteSystemsTempFiles
+/target/
