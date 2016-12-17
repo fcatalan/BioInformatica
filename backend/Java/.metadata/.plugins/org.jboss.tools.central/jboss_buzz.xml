@@ -1,0 +1,3084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/atom10full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
+<title>JBoss Central</title>
+<generator uri="http://tt-rss.org/">Tiny Tiny RSS/1.9</generator>
+<updated>2016-12-12T22:16:17+00:00</updated>
+<id>http://tiny-man.rhcloud.com/public.php?op=rss&amp;id=1&amp;key=b0143615132bd9efc4e83ba42a5574f6ab939b28</id>
+
+
+<link href="http://tiny-man.rhcloud.com" rel="alternate" />
+
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/atom+xml" href="http://feeds.feedburner.com/jbossbuzz" /><feedburner:info uri="jbossbuzz" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><entry>
+	<id>https://developer.jboss.org/blogs/weekly-editorial/2016/12/16/this-week-in-jboss-16th-december-2016-staying-strong</id>
+	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/0TqEHMPqhFM/this-week-in-jboss-16th-december-2016-staying-strong" rel="alternate" type="text/html" />
+	<title>This week in JBoss (16th December 2016): Staying Strong</title>
+	<summary type="html"><![CDATA[<!-- [DocumentBodyStart:4a453e0b-23a8-4dbd-80c0-39eee14b6a91] --><div class="jive-rendered-content"><p style="margin-bottom: 1.25rem; font-family: inherit; font-size: 1.21875em; color: rgba(0, 0, 0, 0.85098);">Welcome to another edition of the JBoss Weekly Editorial! We are excited to bring you another packed week of JBoss and Red Hat Middleware news. The end of the year is nearly here, but that doesn&#8217;t mean we&#8217;re slowing down.</p><h2 style="margin-top: 1em; margin-bottom: 0.5em; font-family: 'Open Sans', 'DejaVu Sans', sans-serif; font-weight: 300; color: #ba3925; font-size: 2.3125em;">Releases</h2><div class="paragraph"><p style="margin-bottom: 1.25rem; font-family: inherit; font-size: 1.0625rem;">Let&#8217;s start with the new bits during the week, shall we?</p><p style="margin-bottom: 1.25rem; font-family: inherit; font-size: 1.0625rem;">Teiid continues to move closer to it&#8217;s 9.2 release with <a class="jive-link-external-small" href="http://teiid.blogspot.com/2016/12/teiid-92-alpha2-available.html" rel="nofollow">9.2 Alpha2</a>. Hashing functions, including md5, sha1, sha2-256 and sha2-512 have been added along with a number of issues being closed with this release. Just over 70 issues have been closed on the road to the 9.2 release currently slated for early to mid February.</p><p style="margin-bottom: 1.25rem; font-family: inherit; font-size: 1.0625rem;">Wildfly Swarm has <a class="jive-link-external-small" href="http://wildfly-swarm.io/posts/announcing-wildfly-swarm-2016-12-1/" rel="nofollow">recently released version 2016.12.1</a>. A number of issues have been closed with this release including improvements to UberJar and war cleaning, fewer boot-time warnings, significant improvements to Windows support and JavaDocs! Wildfly Swarm is a slimmed down version of Wildfly Java Application Server for use with Microservices.</p><p style="margin-bottom: 1.25rem; font-family: inherit; font-size: 1.0625rem;">Changes to the JDK9 have necessitated another release of Byteman. Andrew Dinn released version <a class="jive-link-external-small" href="http://bytemanblog.blogspot.com/2016/12/byteman-400-beta1-has-been-released.html" rel="nofollow">4.0.0-BETA1</a> earlier this week addressing those changes. Byteman is an invaluable tool for tracing, monitoring and testing Java application JDK runtime code.</p><p style="margin-bottom: 1.25rem; font-family: inherit; font-size: 1.0625rem;">On the product side of things, Red Hat Single Sign-on recently released version <a class="jive-link-external-small" href="http://middlewareblog.redhat.com/2016/12/09/announcing-red-hat-single-sign-on-7-1-beta-is-available/" rel="nofollow">7.1 Beta</a>. Included in Red Hat Single Sign-on are features for OpenID connect, Red Hat JBoss Fuse integration, a Node.JS client adapter, SSSD integration, user storage SPI and more! If you&#8217;re in need of an SSO solution, look no further.</p></div><h2 style="margin-top: 1em; margin-bottom: 0.5em; font-family: 'Open Sans', 'DejaVu Sans', sans-serif; font-weight: 300; color: #ba3925; font-size: 2.3125em;">Notable Blog Entries</h2><div class="paragraph"><p style="margin-bottom: 1.25rem; font-family: inherit; font-size: 1.0625rem;">This past week includes a number of notable blogs done by the community.</p><p style="margin-bottom: 1.25rem; font-family: inherit; font-size: 1.0625rem;">To kick things off, Jason Green blogged about <a class="jive-link-external-small" href="http://wildfly.org/news/2016/12/12/Jigsaws-Missing-Pieces/" rel="nofollow">Jigsaw&#8217;s Missing Pieces</a>. He includes links to the various issues in the OpenJDK project. Jason breaks down the "missing pieces" into three categories: Reflection issues, dynamic introduction and alteration of modules, and interoperability with alternative module system. He remains hopeful suitable solutions can be found and implemented.</p><p style="margin-bottom: 1.25rem; font-family: inherit; font-size: 1.0625rem;">Next, we have Ken Finnigan&#8217;s post about <a class="jive-link-external-small" href="http://wildfly-swarm.io/posts/to-war-or-jar/" rel="nofollow">whether to WAR or JAR with Wildfly Swarm</a>. Ken briefly describes how to obtain a JAR and a WAR using Maven. He also discusses pros and cons of both approaches. The recommended approach is to us a war with Wildfly Swarm, however, that isn&#8217;t a hard rule.</p><p style="margin-bottom: 1.25rem; font-family: inherit; font-size: 1.0625rem;">Juraci Paix&atilde;o Kr&ouml;hling talked about the recent improvements to <a class="jive-link-external-small" href="http://www.hawkular.org/blog/2016/12/16/hawkular-apm-vertx-opentracing-openshift.html" rel="nofollow">Hawkular APM for OpenShift this week</a>. He included steps to get everything setup on Fedora 25. There are also examples to follow along that Juraci mentions!</p><p style="margin-bottom: 1.25rem; font-family: inherit; font-size: 1.0625rem;">Vlad Mihalcea discusses what has happened within the Hibernate Community recently in his <a class="jive-link-external-small" href="http://in.relation.to/2016/12/16/hibernate-community-newsletter-2016-25/" rel="nofollow">Hibernate Community Newsletter</a> post. There are many blogs, issues, releases and Q&amp;A posts he links to and are well worth the read if any of them apply to your particular Hibernate usage.</p><p style="margin-bottom: 1.25rem; font-family: inherit; font-size: 1.0625rem;">Back in November a number of Red Hat employees spoke at Devoxx Morocco. Galder Zamarre&#241;o recapped his trip to Morocco and Geneva over on the <a class="jive-link-external-small" href="http://blog.infinispan.org/2016/12/thanks-soft-shake-and-devoxx-morocco.html?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+Infinispan+%28Infinispan%29" rel="nofollow">Infinispan blog</a>. Galder spoke about building reactive applications using Infinispan, Node.js and Elm.</p><p style="margin-bottom: 1.25rem; font-family: inherit; font-size: 1.0625rem;">To round out the Java related news, John Clingan wrote about <a class="jive-link-external-small" href="http://middlewareblog.redhat.com/2016/12/16/its-official-microprofile-is-now-eclipse-microprofile/" rel="nofollow">MicroProfile being adopted into the Eclipse community</a>. MicroProfile has moved quickly since it was announced back in June at DevNation. If you&#8217;re interested in joining the discussion, head over to the <a class="jive-link-external-small" href="https://groups.google.com/forum/#!forum/microprofile" rel="nofollow">forums</a>.</p><p style="margin-bottom: 1.25rem; font-family: inherit; font-size: 1.0625rem;">Todd Mancini has a somewhat lengthy, but concise blog post about <a class="jive-link-external-small" href="https://developers.redhat.com/blog/2016/12/08/observations-porting-from-net-framework-to-net-core/" rel="nofollow">porting .NET Framwork to .NET Core</a>. You&#8217;ll want to read through that if you&#8217;re currently thinking about migrating to .NET core, or even using it for the first time!</p><p style="margin-bottom: 1.25rem; font-family: inherit; font-size: 1.0625rem;">Lastly this week, we have a piece written by Takayoshi Tanaka about <a class="jive-link-external-small" href="https://developers.redhat.com/blog/2016/12/14/getting-started-microsoft-sql-server-rhel/" rel="nofollow">getting started with Microsoft SQL Server on Red Hat Enterprise Linux</a>. Microsoft has a simple seven step install document which Tanaka-san builds upon. He describes how to connect to the database using Visual Studio Code, Visual Studio and the command line.</p><p style="margin-bottom: 1.25rem; font-family: inherit; font-size: 1.0625rem;">We&#8217;ve had a fantastic week here at Red Hat and are looking forward to another one coming up!</p><p style="min-height: 8pt; padding: 0px;">&#160;</p></div></div><!-- [DocumentBodyEnd:4a453e0b-23a8-4dbd-80c0-39eee14b6a91] -->]]></summary>
+	<content type="html">&lt;html&gt;&lt;!-- [DocumentBodyStart:4a453e0b-23a8-4dbd-80c0-39eee14b6a91] --&gt;&lt;body&gt;&lt;div&gt;&lt;p&gt;Welcome to another edition of the JBoss Weekly Editorial! We are excited to bring you another packed week of JBoss and Red Hat Middleware news. The end of the year is nearly here, but that doesn&amp;rsquo;t mean we&amp;rsquo;re slowing down.&lt;/p&gt;&lt;h2&gt;Releases&lt;/h2&gt;&lt;div&gt;&lt;p&gt;Let&amp;rsquo;s start with the new bits during the week, shall we?&lt;/p&gt;&lt;p&gt;Teiid continues to move closer to it&amp;rsquo;s 9.2 release with &lt;a href="http://teiid.blogspot.com/2016/12/teiid-92-alpha2-available.html" rel="nofollow" target="_blank"&gt;9.2 Alpha2&lt;/a&gt;. Hashing functions, including md5, sha1, sha2-256 and sha2-512 have been added along with a number of issues being closed with this release. Just over 70 issues have been closed on the road to the 9.2 release currently slated for early to mid February.&lt;/p&gt;&lt;p&gt;Wildfly Swarm has &lt;a href="http://wildfly-swarm.io/posts/announcing-wildfly-swarm-2016-12-1/" rel="nofollow" target="_blank"&gt;recently released version 2016.12.1&lt;/a&gt;. A number of issues have been closed with this release including improvements to UberJar and war cleaning, fewer boot-time warnings, significant improvements to Windows support and JavaDocs! Wildfly Swarm is a slimmed down version of Wildfly Java Application Server for use with Microservices.&lt;/p&gt;&lt;p&gt;Changes to the JDK9 have necessitated another release of Byteman. Andrew Dinn released version &lt;a href="http://bytemanblog.blogspot.com/2016/12/byteman-400-beta1-has-been-released.html" rel="nofollow" target="_blank"&gt;4.0.0-BETA1&lt;/a&gt; earlier this week addressing those changes. Byteman is an invaluable tool for tracing, monitoring and testing Java application JDK runtime code.&lt;/p&gt;&lt;p&gt;On the product side of things, Red Hat Single Sign-on recently released version &lt;a href="http://middlewareblog.redhat.com/2016/12/09/announcing-red-hat-single-sign-on-7-1-beta-is-available/" rel="nofollow" target="_blank"&gt;7.1 Beta&lt;/a&gt;. Included in Red Hat Single Sign-on are features for OpenID connect, Red Hat JBoss Fuse integration, a Node.JS client adapter, SSSD integration, user storage SPI and more! If you&amp;rsquo;re in need of an SSO solution, look no further.&lt;/p&gt;&lt;/div&gt;&lt;h2&gt;Notable Blog Entries&lt;/h2&gt;&lt;div&gt;&lt;p&gt;This past week includes a number of notable blogs done by the community.&lt;/p&gt;&lt;p&gt;To kick things off, Jason Green blogged about &lt;a href="http://wildfly.org/news/2016/12/12/Jigsaws-Missing-Pieces/" rel="nofollow" target="_blank"&gt;Jigsaw&amp;rsquo;s Missing Pieces&lt;/a&gt;. He includes links to the various issues in the OpenJDK project. Jason breaks down the "missing pieces" into three categories: Reflection issues, dynamic introduction and alteration of modules, and interoperability with alternative module system. He remains hopeful suitable solutions can be found and implemented.&lt;/p&gt;&lt;p&gt;Next, we have Ken Finnigan&amp;rsquo;s post about &lt;a href="http://wildfly-swarm.io/posts/to-war-or-jar/" rel="nofollow" target="_blank"&gt;whether to WAR or JAR with Wildfly Swarm&lt;/a&gt;. Ken briefly describes how to obtain a JAR and a WAR using Maven. He also discusses pros and cons of both approaches. The recommended approach is to us a war with Wildfly Swarm, however, that isn&amp;rsquo;t a hard rule.&lt;/p&gt;&lt;p&gt;Juraci Paix&amp;atilde;o Kr&amp;ouml;hling talked about the recent improvements to &lt;a href="http://www.hawkular.org/blog/2016/12/16/hawkular-apm-vertx-opentracing-openshift.html" rel="nofollow" target="_blank"&gt;Hawkular APM for OpenShift this week&lt;/a&gt;. He included steps to get everything setup on Fedora 25. There are also examples to follow along that Juraci mentions!&lt;/p&gt;&lt;p&gt;Vlad Mihalcea discusses what has happened within the Hibernate Community recently in his &lt;a href="http://in.relation.to/2016/12/16/hibernate-community-newsletter-2016-25/" rel="nofollow" target="_blank"&gt;Hibernate Community Newsletter&lt;/a&gt; post. There are many blogs, issues, releases and Q&amp;amp;A posts he links to and are well worth the read if any of them apply to your particular Hibernate usage.&lt;/p&gt;&lt;p&gt;Back in November a number of Red Hat employees spoke at Devoxx Morocco. Galder Zamarre&amp;ntilde;o recapped his trip to Morocco and Geneva over on the &lt;a href="http://blog.infinispan.org/2016/12/thanks-soft-shake-and-devoxx-morocco.html?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+Infinispan+%28Infinispan%29" rel="nofollow" target="_blank"&gt;Infinispan blog&lt;/a&gt;. Galder spoke about building reactive applications using Infinispan, Node.js and Elm.&lt;/p&gt;&lt;p&gt;To round out the Java related news, John Clingan wrote about &lt;a href="http://middlewareblog.redhat.com/2016/12/16/its-official-microprofile-is-now-eclipse-microprofile/" rel="nofollow" target="_blank"&gt;MicroProfile being adopted into the Eclipse community&lt;/a&gt;. MicroProfile has moved quickly since it was announced back in June at DevNation. If you&amp;rsquo;re interested in joining the discussion, head over to the &lt;a href="https://groups.google.com/forum/#!forum/microprofile" rel="nofollow" target="_blank"&gt;forums&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Todd Mancini has a somewhat lengthy, but concise blog post about &lt;a href="https://developers.redhat.com/blog/2016/12/08/observations-porting-from-net-framework-to-net-core/" rel="nofollow" target="_blank"&gt;porting .NET Framwork to .NET Core&lt;/a&gt;. You&amp;rsquo;ll want to read through that if you&amp;rsquo;re currently thinking about migrating to .NET core, or even using it for the first time!&lt;/p&gt;&lt;p&gt;Lastly this week, we have a piece written by Takayoshi Tanaka about &lt;a href="https://developers.redhat.com/blog/2016/12/14/getting-started-microsoft-sql-server-rhel/" rel="nofollow" target="_blank"&gt;getting started with Microsoft SQL Server on Red Hat Enterprise Linux&lt;/a&gt;. Microsoft has a simple seven step install document which Tanaka-san builds upon. He describes how to connect to the database using Visual Studio Code, Visual Studio and the command line.&lt;/p&gt;&lt;p&gt;We&amp;rsquo;ve had a fantastic week here at Red Hat and are looking forward to another one coming up!&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- [DocumentBodyEnd:4a453e0b-23a8-4dbd-80c0-39eee14b6a91] --&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/0TqEHMPqhFM" height="1" width="1" alt=""/&gt;</content>
+	<updated>2016-12-17T00:46:24+00:00</updated>
+	<author><name>Jason Porter</name></author>
+	<source>
+		<link rel="self" href="http://community.jboss.org/blogs/weekly-editorial/feeds/" />
+		<title>Weekly Editorial</title></source>
+
+	<category term="hibernate" />
+
+	<category term="teiid" />
+
+	<category term="byteman" />
+
+	<category term="rhel" />
+
+	<category term="microsoft" />
+
+	<category term="single-sign-on" />
+
+	<category term="hawkular" />
+
+	<category term="wildfly-swarm" />
+
+	<category term="microprofile" />
+
+
+<feedburner:origLink>https://developer.jboss.org/blogs/weekly-editorial/2016/12/16/this-week-in-jboss-16th-december-2016-staying-strong</feedburner:origLink></entry>
+
+<entry>
+	<id>https://tools.jboss.org/blog/10.2.0.rpm-installation.html</id>
+	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/dB10UJJnwPs/10.2.0.rpm-installation.html" rel="alternate" type="text/html" />
+	<title>Installing Red Hat Developer Studio 10.2.0.GA through RPM</title>
+	<summary type="html"><![CDATA[
+      <div><div id="preamble">
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>With the release of <a href="https://tools.jboss.org/downloads/devstudio/neon/10.2.0.GA.html">Red Hat JBoss Developer Studio 10.2</a>, it is now possible to install Red Hat JBoss Developer Studio as an RPM.
+      It is available as a tech preview. The purpose of this article is to describe the steps you should follow in order to install Red Hat JBoss Developer Studio.</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="red-hat-software-collections"><a class="anchor" href="#red-hat-software-collections"></a>Red Hat Software Collections</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>JBoss Developer Studio RPM relies on Red Hat Software Collections. You don’t need to install Red Hat Software Collections but you need to enable
+      the Red Hat Software Collections repositories before you start the installation of the Red Hat JBoss Developer Studio.</p>
+      </div>
+      <div class="sect2">
+      <h3 id="enabling-the-red-hat-software-collections-base-repository"><a class="anchor" href="#enabling-the-red-hat-software-collections-base-repository"></a>Enabling the Red Hat Software Collections base repository</h3>
+      <div class="paragraph">
+      <p>The identifier for the repository is <strong>rhel-server-rhscl-7-rpms</strong> on Red Hat Enterprise Linux Server and <strong>rhel-workstation-rhscl-7-rpms</strong> on Red Hat Enterprise Linux Workstation.</p>
+      </div>
+      <div class="paragraph">
+      <p>The command to enable the repository on Red Hat Enterprise Linux Server is:</p>
+      </div>
+      <div class="listingblock">
+      <div class="content">
+      <pre class="prettyprint highlight"><code>sudo subscription-manager repos --enable rhel-server-rhscl-7-rpms</code></pre>
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>The command to enable the repository on Red Hat Enterprise Linux Workstation is:</p>
+      </div>
+      <div class="listingblock">
+      <div class="content">
+      <pre class="prettyprint highlight"><code>sudo subscription-manager repos --enable rhel-workstation-rhscl-7-rpms</code></pre>
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>For more information, please refer to the <a href="https://access.redhat.com/documentation/en/red-hat-software-collections/?version=2/">Red Hat Software Collections</a> documentation.</p>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="jboss-developer-studio-repository"><a class="anchor" href="#jboss-developer-studio-repository"></a>JBoss Developer Studio repository</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>As this is a tech preview, you need to manually configure the JBoss Developer Studio repository.</p>
+      </div>
+      <div class="paragraph">
+      <p>Create a file <strong>/etc/yum.repos.d/rh-eclipse46-devstudio.repo</strong> with the following content:</p>
+      </div>
+      <div class="listingblock">
+      <div class="content">
+      <pre class="prettyprint highlight"><code>[rh-eclipse46-devstudio-stable-10.x]
+      name=rh-eclipse46-devstudio-stable-10.x
+      baseurl=https://devstudio.redhat.com/static/10.0/stable/rpms/x86_64/
+      enabled=1
+      gpgcheck=1
+      upgrade_requirements_on_install=1
+      metadata_expire=24h</code></pre>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="red-hat-developer-signing-key"><a class="anchor" href="#red-hat-developer-signing-key"></a>Red Hat developer signing key</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>As this is tech preview, you need to accept the Red Hat developer signing key that has been used for producing the JBoss Developer Studio RPM.</p>
+      </div>
+      <div class="paragraph">
+      <p>Execute the following command:</p>
+      </div>
+      <div class="listingblock">
+      <div class="content">
+      <pre class="prettyprint highlight"><code>sudo rpm --import &quot;https://www.redhat.com/security/a5787476.txt&quot;</code></pre>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="install-red-hat-jboss-developer-studio"><a class="anchor" href="#install-red-hat-jboss-developer-studio"></a>Install Red Hat JBoss Developer Studio</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>You’re now ready to install Red Hat JBoss Developer Studio through RPM.</p>
+      </div>
+      <div class="paragraph">
+      <p>Enter the following command:</p>
+      </div>
+      <div class="listingblock">
+      <div class="content">
+      <pre class="prettyprint highlight"><code>sudo yum install rh-eclipse46-devstudio</code></pre>
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>Answer &apos;y&apos; when asked and after all required dependencies have been downloaded and installed, Red Hat JBoss Developer Studio is available on your
+      system through the standard update channel !!!</p>
+      </div>
+      <div class="paragraph">
+      <p>You should see messages like the following:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/blog/images/20161212-rpm/rh-eclipse46-devstudio.log.png" alt="rh eclipse46 devstudio.log" />
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="launch-red-hat-jboss-developer-studio"><a class="anchor" href="#launch-red-hat-jboss-developer-studio"></a>Launch Red Hat JBoss Developer Studio</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>From the system menu, mouse over the <strong>Programming</strong> menu, and the <strong>Red Hat Eclipse</strong> menu item will appear.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/blog/images/20161212-rpm/programming-menu.png" alt="programming menu" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>Select this menu item and Red Hat JBoss Developer Studio user interface will appear then:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/blog/images/20161212-rpm/devstudio.png" alt="devstudio" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>Enjoy!</p>
+      </div>
+      <div class="paragraph">
+      <p>Jeff Maury</p>
+      </div>
+      </div>
+      </div></div>
+    ]]></summary>
+	<content type="html">&lt;html&gt;&lt;body&gt;&lt;div&gt;&lt;div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;With the release of &lt;a href="https://tools.jboss.org/downloads/devstudio/neon/10.2.0.GA.html" target="_blank"&gt;Red Hat JBoss Developer Studio 10.2&lt;/a&gt;, it is now possible to install Red Hat JBoss Developer Studio as an RPM.
+      It is available as a tech preview. The purpose of this article is to describe the steps you should follow in order to install Red Hat JBoss Developer Studio.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#red-hat-software-collections" target="_blank"&gt;&lt;/a&gt;Red Hat Software Collections&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;JBoss Developer Studio RPM relies on Red Hat Software Collections. You don&amp;rsquo;t need to install Red Hat Software Collections but you need to enable
+      the Red Hat Software Collections repositories before you start the installation of the Red Hat JBoss Developer Studio.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#enabling-the-red-hat-software-collections-base-repository" target="_blank"&gt;&lt;/a&gt;Enabling the Red Hat Software Collections base repository&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;The identifier for the repository is &lt;strong&gt;rhel-server-rhscl-7-rpms&lt;/strong&gt; on Red Hat Enterprise Linux Server and &lt;strong&gt;rhel-workstation-rhscl-7-rpms&lt;/strong&gt; on Red Hat Enterprise Linux Workstation.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;The command to enable the repository on Red Hat Enterprise Linux Server is:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;pre&gt;&lt;code&gt;sudo subscription-manager repos --enable rhel-server-rhscl-7-rpms&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;The command to enable the repository on Red Hat Enterprise Linux Workstation is:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;pre&gt;&lt;code&gt;sudo subscription-manager repos --enable rhel-workstation-rhscl-7-rpms&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;For more information, please refer to the &lt;a href="https://access.redhat.com/documentation/en/red-hat-software-collections/?version=2/" target="_blank"&gt;Red Hat Software Collections&lt;/a&gt; documentation.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#jboss-developer-studio-repository" target="_blank"&gt;&lt;/a&gt;JBoss Developer Studio repository&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;As this is a tech preview, you need to manually configure the JBoss Developer Studio repository.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Create a file &lt;strong&gt;/etc/yum.repos.d/rh-eclipse46-devstudio.repo&lt;/strong&gt; with the following content:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;pre&gt;&lt;code&gt;[rh-eclipse46-devstudio-stable-10.x]
+      name=rh-eclipse46-devstudio-stable-10.x
+      baseurl=https://devstudio.redhat.com/static/10.0/stable/rpms/x86_64/
+      enabled=1
+      gpgcheck=1
+      upgrade_requirements_on_install=1
+      metadata_expire=24h&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#red-hat-developer-signing-key" target="_blank"&gt;&lt;/a&gt;Red Hat developer signing key&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;As this is tech preview, you need to accept the Red Hat developer signing key that has been used for producing the JBoss Developer Studio RPM.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Execute the following command:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;pre&gt;&lt;code&gt;sudo rpm --import "https://www.redhat.com/security/a5787476.txt"&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#install-red-hat-jboss-developer-studio" target="_blank"&gt;&lt;/a&gt;Install Red Hat JBoss Developer Studio&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;You&amp;rsquo;re now ready to install Red Hat JBoss Developer Studio through RPM.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Enter the following command:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;pre&gt;&lt;code&gt;sudo yum install rh-eclipse46-devstudio&lt;/code&gt;&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Answer 'y' when asked and after all required dependencies have been downloaded and installed, Red Hat JBoss Developer Studio is available on your
+      system through the standard update channel !!!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;You should see messages like the following:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/blog/images/20161212-rpm/rh-eclipse46-devstudio.log.png" alt="rh eclipse46 devstudio.log"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#launch-red-hat-jboss-developer-studio" target="_blank"&gt;&lt;/a&gt;Launch Red Hat JBoss Developer Studio&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;From the system menu, mouse over the &lt;strong&gt;Programming&lt;/strong&gt; menu, and the &lt;strong&gt;Red Hat Eclipse&lt;/strong&gt; menu item will appear.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/blog/images/20161212-rpm/programming-menu.png" alt="programming menu"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Select this menu item and Red Hat JBoss Developer Studio user interface will appear then:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/blog/images/20161212-rpm/devstudio.png" alt="devstudio"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Enjoy!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Jeff Maury&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/dB10UJJnwPs" height="1" width="1" alt=""/&gt;</content>
+	<updated>2016-12-15T11:36:08+00:00</updated>
+	<author><name>jeffmaury</name></author>
+	<source>
+		<link rel="self" href="http://tools.jboss.org/blog/" />
+		<title>JBoss Tools</title></source>
+
+	<category term="tech-preview" />
+
+	<category term="jbosstools" />
+
+	<category term="devstudio" />
+
+	<category term="rpm" />
+
+
+<feedburner:origLink>https://tools.jboss.org/blog/10.2.0.rpm-installation.html</feedburner:origLink></entry>
+
+<entry>
+	<id>https://tools.jboss.org/blog/2016-05-18-EclipseFuseTooling-DiagramReworked.html</id>
+	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/m0lNZVBNjEM/2016-05-18-EclipseFuseTooling-DiagramReworked.html" rel="alternate" type="text/html" />
+	<title>JBoss Fuse Tooling - Diagram reworked with new shiny colors! (and more)</title>
+	<summary type="html"><![CDATA[
+      <div><div id="preamble">
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>Note: This article has been posted also on <a href="http://developers.redhat.com/blog/2016/05/17/jboss-fuse-tooling-diagram-reworked-new-shiny-colors-and-more/">Red Hat Developers Program blog</a></p>
+      </div>
+      <div class="paragraph">
+      <p>The JBoss Fuse Tooling has been reworked to provide a brighter Look’n’feel and a nice looking automatic layout. The work is still in progress but already available in beta version with the new JBoss Tool Studio version. Please install the JBoss Tools Studio that you can download from <a href="https://tools.jboss.org/downloads/devstudio/mars/9.1.0.GA.html">here</a>. And then follow the steps in this screenshot to have access to JBoss Fuse Tooling 8.0 Beta 2.</p>
+      </div>
+      <div class="paragraph">
+      <p><span class="image"><img src="https://tools.jboss.org/blog/images/fuse/201604/HowToInstall.png" alt="HowToInstall" /></span></p>
+      </div>
+      <div class="paragraph">
+      <p>Ok, now let’s see what’s new from a Diagram point view!</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="new-layout-and-look-n-feel"><a class="anchor" href="#new-layout-and-look-n-feel"></a>New layout and Look’n’Feel</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>It provides modern colors. Some of them are dynamic depending on the consumer/producer role.</p>
+      </div>
+      <div class="paragraph">
+      <p>The new default layout is vertical - the horizontal is still available from Preferences - providing more information in a more compact way.</p>
+      </div>
+      <div class="paragraph">
+      <p>Icons for each component are currently created. It helps to distinguish at first sight which kind of component it is without having to read the scheme of the URI.</p>
+      </div>
+      <div class="paragraph">
+      <p>An image is worth a thousands words, especially here, so have a look:</p>
+      </div>
+      <div class="paragraph">
+      <p><span class="image"><img src="https://tools.jboss.org/blog/images/fuse/201604/FuseNewLayoutAndLookNFeel.png" alt="FuseNewLayoutAndLookNFeel" /></span></p>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="multiple-routes-support"><a class="anchor" href="#multiple-routes-support"></a>Multiple routes support</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>Previously, the editor was supporting editing a single route per Camel file. It is now possible to develop several Camel routes in the same file with the JBoss Fuse Tooling.</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="palette-simplification"><a class="anchor" href="#palette-simplification"></a>Palette simplification</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>The Palette has been reworked too. The component list has been shortened to present the most common components only. You can use a search field to filter on the remaining ones. All the other components are still available using the &quot;Generic&quot; tool palette, it opens a dialog where you will be able to search for a specific component and have default filters/presentations.</p>
+      </div>
+      <div class="paragraph">
+      <p><span class="image"><img src="https://tools.jboss.org/blog/images/fuse/201604/PaletteHighlighted.png" alt="PaletteHighlighted" /></span>
+      <span class="image"><img src="https://tools.jboss.org/blog/images/fuse/201604/componentChoose.png" alt="componentChoose" /></span></p>
+      </div>
+      <div class="paragraph">
+      <p>If you feel that the component list of the palette must be configurable, you can vote on the corresponding <a href="https://issues.jboss.org/browse/FUSETOOLS-1300">feature request</a>.</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="validation-decorator"><a class="anchor" href="#validation-decorator"></a>Validation decorator</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>The Fuse Validation issues are now displayed on the diagram:</p>
+      </div>
+      <div class="paragraph">
+      <p><span class="image"><img src="https://tools.jboss.org/blog/images/fuse/201604/validationDiagram.png" alt="validationDiagram" /></span></p>
+      </div>
+      </div>
+      </div></div>
+    ]]></summary>
+	<content type="html">&lt;html&gt;&lt;body&gt;&lt;div&gt;&lt;div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Note: This article has been posted also on &lt;a href="http://developers.redhat.com/blog/2016/05/17/jboss-fuse-tooling-diagram-reworked-new-shiny-colors-and-more/" target="_blank"&gt;Red Hat Developers Program blog&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;The JBoss Fuse Tooling has been reworked to provide a brighter Look&amp;rsquo;n&amp;rsquo;feel and a nice looking automatic layout. The work is still in progress but already available in beta version with the new JBoss Tool Studio version. Please install the JBoss Tools Studio that you can download from &lt;a href="https://tools.jboss.org/downloads/devstudio/mars/9.1.0.GA.html" target="_blank"&gt;here&lt;/a&gt;. And then follow the steps in this screenshot to have access to JBoss Fuse Tooling 8.0 Beta 2.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;span&gt;&lt;img src="https://tools.jboss.org/blog/images/fuse/201604/HowToInstall.png" alt="HowToInstall"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Ok, now let&amp;rsquo;s see what&amp;rsquo;s new from a Diagram point view!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#new-layout-and-look-n-feel" target="_blank"&gt;&lt;/a&gt;New layout and Look&amp;rsquo;n&amp;rsquo;Feel&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;It provides modern colors. Some of them are dynamic depending on the consumer/producer role.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;The new default layout is vertical - the horizontal is still available from Preferences - providing more information in a more compact way.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Icons for each component are currently created. It helps to distinguish at first sight which kind of component it is without having to read the scheme of the URI.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;An image is worth a thousands words, especially here, so have a look:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;span&gt;&lt;img src="https://tools.jboss.org/blog/images/fuse/201604/FuseNewLayoutAndLookNFeel.png" alt="FuseNewLayoutAndLookNFeel"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#multiple-routes-support" target="_blank"&gt;&lt;/a&gt;Multiple routes support&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Previously, the editor was supporting editing a single route per Camel file. It is now possible to develop several Camel routes in the same file with the JBoss Fuse Tooling.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#palette-simplification" target="_blank"&gt;&lt;/a&gt;Palette simplification&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;The Palette has been reworked too. The component list has been shortened to present the most common components only. You can use a search field to filter on the remaining ones. All the other components are still available using the "Generic" tool palette, it opens a dialog where you will be able to search for a specific component and have default filters/presentations.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;span&gt;&lt;img src="https://tools.jboss.org/blog/images/fuse/201604/PaletteHighlighted.png" alt="PaletteHighlighted"&gt;&lt;/span&gt;
+      &lt;span&gt;&lt;img src="https://tools.jboss.org/blog/images/fuse/201604/componentChoose.png" alt="componentChoose"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;If you feel that the component list of the palette must be configurable, you can vote on the corresponding &lt;a href="https://issues.jboss.org/browse/FUSETOOLS-1300" target="_blank"&gt;feature request&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#validation-decorator" target="_blank"&gt;&lt;/a&gt;Validation decorator&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;The Fuse Validation issues are now displayed on the diagram:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;span&gt;&lt;img src="https://tools.jboss.org/blog/images/fuse/201604/validationDiagram.png" alt="validationDiagram"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/m0lNZVBNjEM" height="1" width="1" alt=""/&gt;</content>
+	<updated>2016-12-12T22:16:17+00:00</updated>
+	<author><name>apupier</name></author>
+	<source>
+		<link rel="self" href="http://tools.jboss.org/blog/" />
+		<title>JBoss Tools</title></source>
+
+	<category term="jbtis" />
+
+	<category term="fuse" />
+
+
+<feedburner:origLink>https://tools.jboss.org/blog/2016-05-18-EclipseFuseTooling-DiagramReworked.html</feedburner:origLink></entry>
+
+<entry>
+	<id>https://tools.jboss.org/blog/devoxx15-docker-tooling.html</id>
+	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/APOO2sqvbAM/devoxx15-docker-tooling.html" rel="alternate" type="text/html" />
+	<title>Docker Tooling at Devoxx'15</title>
+	<summary type="html"><![CDATA[
+      <div><div class="admonitionblock note">
+      <table>
+      <tr>
+      <td class="icon">
+      <i class="fa icon-note" title="Note"></i>
+      </td>
+      <td class="content">
+      Article was updated on Nov. 12th with the video published on YouTube.
+      </td>
+      </tr>
+      </table>
+      </div>
+      <div class="paragraph">
+      <p>On Monday I had the chance to give a <a href="http://cfp.devoxx.be/2015/talk/OEI-9379/Docker_Tooling_for_JavaEE__Developers_">Tools In Action talk about Docker Tooling for Java EE Developers</a>.
+      After a quick introduction about the main concepts of Docker (images, containers, daemon, clients and registries), I
+      gave a demo of the tooling that we’ve been working on in the Linux Tools and JBoss Tools team.</p>
+      </div>
+      <div class="paragraph">
+      <p>The goal of the demo was to deploy and debug the &quot;HTML5 Kitchen Sink&quot; quick start application from JBoss Central in a
+      container running WildFly and linked to another container running PostgreSQL.</p>
+      </div>
+      <div class="paragraph">
+      <p>The demo showed how a user can:</p>
+      </div>
+      <div class="ulist">
+      <ul>
+      <li>
+      <p>Connect to a Docker Machine.</p>
+      </li>
+      <li>
+      <p>Pull images from Docker Hub.</p>
+      </li>
+      <li>
+      <p>Build custom images from a Dockerfile (as we needed to customized WildFly to include the PostgreSQL driver and datasource configuration)</p>
+      </li>
+      <li>
+      <p>Run images by configuring environment variables, links to other containers and data volumes.</p>
+      </li>
+      <li>
+      <p>Open a web browser on the published ports.</p>
+      </li>
+      <li>
+      <p>See the container logs streamed in the Eclipse console.</p>
+      </li>
+      <li>
+      <p>Create and configure a server adapter in the Servers View to deploy the application in the container data volume.</p>
+      </li>
+      </ul>
+      </div>
+      <div class="paragraph">
+      <p>As explained during the demo, the Docker tooling is available from the <a href="http://eclipse.org/linuxtools">Linux Tools project at Eclipse.org</a> and is also
+      bundled in <a href="https://tools.jboss.org/downloads/jbosstools/mars/4.3.0.Final.html">JBoss Tools</a> and <a href="https://tools.jboss.org/downloads/devstudio/mars/9.0.0.GA.html">Developer Studio</a>, so you can get it from the update sites or from the marketplace.</p>
+      </div>
+      <div class="paragraph">
+      <p>Slides for the demo are available <a href="http://www.slideshare.net/XavierCoulon/docker-tooling-for-java-ee-developers">on Slidehare</a>.</p>
+      </div>
+      <div class="paragraph">
+      <p>As Devoxx decided to stop Parleys and publish all talks for free on Youtube just after they were recorded, you can already watch
+      the presentation <a href="https://www.youtube.com/watch?v=tq58w0DYmgc">here</a>:</p>
+      </div>
+      <div class="videoblock">
+      <div class="content">
+      <iframe width="640" height="400" src="//www.youtube.com/embed/tq58w0DYmgc?rel=0" frameborder="0" allowfullscreen=""></iframe>
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>As usual, feedback on the Docker tooling is much appreciated, so don’t hesitate to contact us on
+      <a href="mailto:linuxtools-dev@eclipse.org">linuxtools-dev@eclipse.org</a> or on <a href="mailto:jbosstools-dev@jboss.org">jbosstools-dev@jboss.org</a></p>
+      </div>
+      <div class="paragraph">
+      <p>Enjoy!<br />
+      Xavier<br />
+      <a href="http://twitter.com/xcoulon">@xcoulon</a></p>
+      </div></div>
+    ]]></summary>
+	<content type="html">&lt;html&gt;&lt;body&gt;&lt;div&gt;&lt;div&gt;
+      &lt;table&gt;&lt;tr&gt;&lt;td&gt;
+      &lt;i title="Note"&gt;&lt;/i&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+      Article was updated on Nov. 12th with the video published on YouTube.
+      &lt;/td&gt;
+      &lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;On Monday I had the chance to give a &lt;a href="http://cfp.devoxx.be/2015/talk/OEI-9379/Docker_Tooling_for_JavaEE__Developers_" target="_blank"&gt;Tools In Action talk about Docker Tooling for Java EE Developers&lt;/a&gt;.
+      After a quick introduction about the main concepts of Docker (images, containers, daemon, clients and registries), I
+      gave a demo of the tooling that we&amp;rsquo;ve been working on in the Linux Tools and JBoss Tools team.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;The goal of the demo was to deploy and debug the "HTML5 Kitchen Sink" quick start application from JBoss Central in a
+      container running WildFly and linked to another container running PostgreSQL.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;The demo showed how a user can:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;ul&gt;&lt;li&gt;
+      &lt;p&gt;Connect to a Docker Machine.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Pull images from Docker Hub.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Build custom images from a Dockerfile (as we needed to customized WildFly to include the PostgreSQL driver and datasource configuration)&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Run images by configuring environment variables, links to other containers and data volumes.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Open a web browser on the published ports.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;See the container logs streamed in the Eclipse console.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Create and configure a server adapter in the Servers View to deploy the application in the container data volume.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;&lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;As explained during the demo, the Docker tooling is available from the &lt;a href="http://eclipse.org/linuxtools" target="_blank"&gt;Linux Tools project at Eclipse.org&lt;/a&gt; and is also
+      bundled in &lt;a href="https://tools.jboss.org/downloads/jbosstools/mars/4.3.0.Final.html" target="_blank"&gt;JBoss Tools&lt;/a&gt; and &lt;a href="https://tools.jboss.org/downloads/devstudio/mars/9.0.0.GA.html" target="_blank"&gt;Developer Studio&lt;/a&gt;, so you can get it from the update sites or from the marketplace.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Slides for the demo are available &lt;a href="http://www.slideshare.net/XavierCoulon/docker-tooling-for-java-ee-developers" target="_blank"&gt;on Slidehare&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;As Devoxx decided to stop Parleys and publish all talks for free on Youtube just after they were recorded, you can already watch
+      the presentation &lt;a href="https://www.youtube.com/watch?v=tq58w0DYmgc" target="_blank"&gt;here&lt;/a&gt;:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;As usual, feedback on the Docker tooling is much appreciated, so don&amp;rsquo;t hesitate to contact us on
+      &lt;a href="mailto:linuxtools-dev@eclipse.org" target="_blank"&gt;linuxtools-dev@eclipse.org&lt;/a&gt; or on &lt;a href="mailto:jbosstools-dev@jboss.org" target="_blank"&gt;jbosstools-dev@jboss.org&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Enjoy!&lt;br&gt;
+      Xavier&lt;br&gt;&lt;a href="http://twitter.com/xcoulon" target="_blank"&gt;@xcoulon&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/APOO2sqvbAM" height="1" width="1" alt=""/&gt;</content>
+	<updated>2016-12-12T22:16:17+00:00</updated>
+	<author><name>xcoulon</name></author>
+	<source>
+		<link rel="self" href="http://tools.jboss.org/blog/" />
+		<title>JBoss Tools</title></source>
+
+	<category term="docker" />
+
+	<category term="eclipse" />
+
+	<category term="jbosscentral" />
+
+
+<feedburner:origLink>https://tools.jboss.org/blog/devoxx15-docker-tooling.html</feedburner:origLink></entry>
+
+<entry>
+	<id>https://tools.jboss.org/blog/beta2-for-mars.html</id>
+	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/id3F6-ilrbU/beta2-for-mars.html" rel="alternate" type="text/html" />
+	<title>Beta2 brings some Bower to Mars</title>
+	<summary type="html"><![CDATA[
+      <div><div id="preamble">
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>Today a new beta is available from our download and update sites!</p>
+      </div>
+      <div class="imageblock" style="text-align: center">
+      <div class="content">
+      <img src="./images/20150721_bower/jbosstools-bower.png" alt="jbosstools bower" />
+      </div>
+      </div>
+      <div class="admonitionblock caution">
+      <table>
+      <tr>
+      <td class="icon">
+      <i class="fa icon-caution" title="Caution"></i>
+      </td>
+      <td class="content">
+      Remember that since Beta1 we require Java 8 for installing and using of
+      JBoss Tools. We still support developing and running applications using older Java runtimes. See more in <a href="2015-06-23-beta1-for-mars.html#java-8-to-run-eclipse-older-runtimes-ok-for-builds-deployment">Beta1 blog</a>.
+      </td>
+      </tr>
+      </table>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="installation"><a class="anchor" href="#installation"></a>Installation</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>JBoss Developer Studio comes with everything pre-bundled in its installer. Simply download it from our <a href="https://www.jboss.org/products/devstudio.html">JBoss Products page</a> and run it like this:</p>
+      </div>
+      <div class="literalblock">
+      <div class="content">
+      <pre>java -jar jboss-devstudio-&lt;installername&gt;.jar</pre>
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>JBoss Tools or Bring-Your-Own-Eclipse (BYOE) JBoss Developer Studio require a bit more:</p>
+      </div>
+      <div class="paragraph">
+      <p>This release requires at least Eclipse 4.5 (Mars) but we recommend
+      using the <a href="http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/marsr">Eclipse 4.5 Mars JEE Bundle</a> since then you get most of the dependencies
+      preinstalled.</p>
+      </div>
+      <div class="paragraph">
+      <p>Once you have installed Eclipse, you can either find us on the Eclipse Marketplace under &quot;JBoss Tools&quot; or &quot;JBoss Developer Studio&quot;.</p>
+      </div>
+      <div class="admonitionblock note">
+      <table>
+      <tr>
+      <td class="icon">
+      <i class="fa icon-note" title="Note"></i>
+      </td>
+      <td class="content">
+      We are now using Eclipse Marketplace feature of having just one market place entry for all old versions.
+      </td>
+      </tr>
+      </table>
+      </div>
+      <div class="paragraph">
+      <p>For JBoss Tools, you can also use our update site directly if you are up for it.</p>
+      </div>
+      <div class="literalblock">
+      <div class="content">
+      <pre>http://download.jboss.org/jbosstools/mars/development/updates</pre>
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>Note: Integration Stack tooling will become available from JBoss Central at a later date.</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="what-is-new"><a class="anchor" href="#what-is-new"></a>What is new ?</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>Full info is at <a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Beta2.html">this page</a>. Some highlights are below.</p>
+      </div>
+      <div class="sect2">
+      <h3 id="bower"><a class="anchor" href="#bower"></a>Bower</h3>
+      <div class="paragraph">
+      <p>We’ve added support for easy setup and invocation of Bower using your locally installed <code>bower</code> command line tool on Windows, OS X and Linux.</p>
+      </div>
+      <div class="paragraph">
+      <p>We provide a Bower Init wizard for getting started.</p>
+      </div>
+      <div class="paragraph">
+      <p><span class="image"><img src="./images/20150721_bower/bower-init-wizard-page.png" alt="bower-init-wizard-page" /></span></p>
+      </div>
+      <div class="paragraph">
+      <p>Once your project has a <code>bower.json</code> file you can now easily run bower update
+      by right-clicking on the file and selecting <span class="menuseq"><span class="menu">Run</span> ▸ <span class="submenu">As…​</span> ▸ <span class="menuitem">Bower Update</span></span>.</p>
+      </div>
+      <div class="paragraph">
+      <p>We are working on contributing this and additional Javascript integration to Eclipse JSDT. We will keep you posted!</p>
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="openshift-v3"><a class="anchor" href="#openshift-v3"></a>OpenShift v3</h3>
+      <div class="paragraph">
+      <p>We continue to work on improving OpenShift v3 tooling and this release has a few new features and important bug fixes but overall OpenShift v3 tooling is still in very early stages.</p>
+      </div>
+      <div class="sect3">
+      <h4 id="manage-your-openshift-v3-projects"><a class="anchor" href="#manage-your-openshift-v3-projects"></a>Manage your OpenShift v3 Projects</h4>
+      <div class="paragraph">
+      <p>You can now create and delete OpenShift v3 projects.</p>
+      </div>
+      <div class="paragraph">
+      <p><span class="image"><img src="./../documentation/whatsnew/openshift/images/manage-projects.png" alt="manage-projects" /></span></p>
+      </div>
+      <div class="paragraph">
+      <p><span class="image"><img src="./../documentation/whatsnew/openshift/images/manage-projects-wizard.png" alt="manage-projects-wizard" /></span></p>
+      </div>
+      <div class="paragraph">
+      <p>If you try to create a new application, but you have no project yet, the tools will prompt you to create one first.
+      Once you are done you can always get back and manage your OpenShift projects via a link in the application wizard.</p>
+      </div>
+      </div>
+      <div class="sect3">
+      <h4 id="manually-trigger-builds"><a class="anchor" href="#manually-trigger-builds"></a>Manually Trigger Builds</h4>
+      <div class="paragraph">
+      <p>You can manually trigger builds when selecting your Build Configs in the OpenShift Explorer.</p>
+      </div>
+      <div class="paragraph">
+      <p><span class="image"><img src="./../documentation/whatsnew/openshift/images/start-build.png" alt="start-build" /></span></p>
+      </div>
+      <div class="paragraph">
+      <p>Once you triggered you should see a new build appear in the Builds category in the OpenShift Explorer.
+      You can see its state next to its name or in the Properties view.
+      Refreshing the Explorer will show you when the build completes.</p>
+      </div>
+      </div>
+      <div class="sect3">
+      <h4 id="port-forwarding"><a class="anchor" href="#port-forwarding"></a>Port Forwarding</h4>
+      <div class="paragraph">
+      <p>Assuming that your application exposes ports you can now forward those to your local machine with JBoss Tools 4.3.0.Beta2.</p>
+      </div>
+      <div class="paragraph">
+      <p><span class="image"><img src="./../documentation/whatsnew/openshift/images/port-forwarding-wizard.png" alt="port-forwarding-wizard" /></span></p>
+      </div>
+      <div class="paragraph">
+      <p>More details of new OpenShift v3 features are at <a href="../documentation/whatsnew/jbosstools/4.3.0.Beta2.html#openshift">Whats New</a>.</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="java-ee-batch-tooling"><a class="anchor" href="#java-ee-batch-tooling"></a>Java EE Batch Tooling</h3>
+      <div class="paragraph">
+      <p>The batch tooling now has hyperlink support for <code>@BatchProperty</code> to navigate between classes and their relevant job <code>.xml</code> files.</p>
+      </div>
+      <div class="paragraph">
+      <p><span class="image"><img src="./../documentation/whatsnew/batch/images/4.3.0.Beta2/openon.gif" alt="openon" /></span></p>
+      </div>
+      <div class="paragraph">
+      <p>There are more news at <a href="../documentation/whatsnew/jbosstools/4.3.0.Beta2.html#batch">Whats New</a>.</p>
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="exploded-nested-jars"><a class="anchor" href="#exploded-nested-jars"></a>Exploded nested jars</h3>
+      <div class="paragraph">
+      <p>In WildFly 8.2 there is now support for hotloading resources from exploded jars inside deployments, i.e. a jar inside your <code>WEB-INF/libs</code>.</p>
+      </div>
+      <div class="paragraph">
+      <p>This allows you to have faster reload times for module web applications using resources from nested jars.</p>
+      </div>
+      <div class="paragraph">
+      <p>Thanks to patch from <a href="https://developer.jboss.org/people/vsevolodgolovanov">Vsevolod Golovanov</a> we now support this when you are using our server tools. Thanks Vsevolod!</p>
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="deploy-hybrid-project-to-feedhenry"><a class="anchor" href="#deploy-hybrid-project-to-feedhenry"></a>Deploy Hybrid project to FeedHenry</h3>
+      <div class="paragraph">
+      <p>You can now take a hybrid mobile project created with Thym and deploy it to a FeedHenry cloud.</p>
+      </div>
+      <div class="paragraph">
+      <p><span class="image"><img src="./../documentation/whatsnew/aerogear/images/1.2.0.Beta2/NewApplicationWiz.png" alt="NewApplicationWiz" /></span></p>
+      </div>
+      <div class="paragraph">
+      <p>Enjoy!</p>
+      </div>
+      <div class="paragraph">
+      <p>Alexey Kazakov</p>
+      </div>
+      </div>
+      </div>
+      </div></div>
+    ]]></summary>
+	<content type="html">&lt;html&gt;&lt;body&gt;&lt;div&gt;&lt;div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Today a new beta is available from our download and update sites!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="./images/20150721_bower/jbosstools-bower.png" alt="jbosstools bower"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;table&gt;&lt;tr&gt;&lt;td&gt;
+      &lt;i title="Caution"&gt;&lt;/i&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+      Remember that since Beta1 we require Java 8 for installing and using of
+      JBoss Tools. We still support developing and running applications using older Java runtimes. See more in &lt;a href="2015-06-23-beta1-for-mars.html#java-8-to-run-eclipse-older-runtimes-ok-for-builds-deployment" target="_blank"&gt;Beta1 blog&lt;/a&gt;.
+      &lt;/td&gt;
+      &lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#installation" target="_blank"&gt;&lt;/a&gt;Installation&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;JBoss Developer Studio comes with everything pre-bundled in its installer. Simply download it from our &lt;a href="https://www.jboss.org/products/devstudio.html" target="_blank"&gt;JBoss Products page&lt;/a&gt; and run it like this:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;pre&gt;java -jar jboss-devstudio-&amp;lt;installername&amp;gt;.jar&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;JBoss Tools or Bring-Your-Own-Eclipse (BYOE) JBoss Developer Studio require a bit more:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;This release requires at least Eclipse 4.5 (Mars) but we recommend
+      using the &lt;a href="http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/marsr" target="_blank"&gt;Eclipse 4.5 Mars JEE Bundle&lt;/a&gt; since then you get most of the dependencies
+      preinstalled.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Once you have installed Eclipse, you can either find us on the Eclipse Marketplace under "JBoss Tools" or "JBoss Developer Studio".&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;table&gt;&lt;tr&gt;&lt;td&gt;
+      &lt;i title="Note"&gt;&lt;/i&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+      We are now using Eclipse Marketplace feature of having just one market place entry for all old versions.
+      &lt;/td&gt;
+      &lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;For JBoss Tools, you can also use our update site directly if you are up for it.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;pre&gt;http://download.jboss.org/jbosstools/mars/development/updates&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Note: Integration Stack tooling will become available from JBoss Central at a later date.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#what-is-new" target="_blank"&gt;&lt;/a&gt;What is new ?&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Full info is at &lt;a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Beta2.html" target="_blank"&gt;this page&lt;/a&gt;. Some highlights are below.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#bower" target="_blank"&gt;&lt;/a&gt;Bower&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;We&amp;rsquo;ve added support for easy setup and invocation of Bower using your locally installed &lt;code&gt;bower&lt;/code&gt; command line tool on Windows, OS X and Linux.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;We provide a Bower Init wizard for getting started.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;span&gt;&lt;img src="./images/20150721_bower/bower-init-wizard-page.png" alt="bower-init-wizard-page"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Once your project has a &lt;code&gt;bower.json&lt;/code&gt; file you can now easily run bower update
+      by right-clicking on the file and selecting &lt;span&gt;&lt;span&gt;Run&lt;/span&gt;&amp;nbsp;&amp;#9656; &lt;span&gt;As&amp;hellip;&amp;#8203;&lt;/span&gt;&amp;nbsp;&amp;#9656; &lt;span&gt;Bower Update&lt;/span&gt;&lt;/span&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;We are working on contributing this and additional Javascript integration to Eclipse JSDT. We will keep you posted!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#openshift-v3" target="_blank"&gt;&lt;/a&gt;OpenShift v3&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;We continue to work on improving OpenShift v3 tooling and this release has a few new features and important bug fixes but overall OpenShift v3 tooling is still in very early stages.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h4&gt;&lt;a href="#manage-your-openshift-v3-projects" target="_blank"&gt;&lt;/a&gt;Manage your OpenShift v3 Projects&lt;/h4&gt;
+      &lt;div&gt;
+      &lt;p&gt;You can now create and delete OpenShift v3 projects.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;span&gt;&lt;img src="./../documentation/whatsnew/openshift/images/manage-projects.png" alt="manage-projects"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;span&gt;&lt;img src="./../documentation/whatsnew/openshift/images/manage-projects-wizard.png" alt="manage-projects-wizard"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;If you try to create a new application, but you have no project yet, the tools will prompt you to create one first.
+      Once you are done you can always get back and manage your OpenShift projects via a link in the application wizard.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h4&gt;&lt;a href="#manually-trigger-builds" target="_blank"&gt;&lt;/a&gt;Manually Trigger Builds&lt;/h4&gt;
+      &lt;div&gt;
+      &lt;p&gt;You can manually trigger builds when selecting your Build Configs in the OpenShift Explorer.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;span&gt;&lt;img src="./../documentation/whatsnew/openshift/images/start-build.png" alt="start-build"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Once you triggered you should see a new build appear in the Builds category in the OpenShift Explorer.
+      You can see its state next to its name or in the Properties view.
+      Refreshing the Explorer will show you when the build completes.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h4&gt;&lt;a href="#port-forwarding" target="_blank"&gt;&lt;/a&gt;Port Forwarding&lt;/h4&gt;
+      &lt;div&gt;
+      &lt;p&gt;Assuming that your application exposes ports you can now forward those to your local machine with JBoss Tools 4.3.0.Beta2.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;span&gt;&lt;img src="./../documentation/whatsnew/openshift/images/port-forwarding-wizard.png" alt="port-forwarding-wizard"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;More details of new OpenShift v3 features are at &lt;a href="../documentation/whatsnew/jbosstools/4.3.0.Beta2.html#openshift" target="_blank"&gt;Whats New&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#java-ee-batch-tooling" target="_blank"&gt;&lt;/a&gt;Java EE Batch Tooling&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;The batch tooling now has hyperlink support for &lt;code&gt;@BatchProperty&lt;/code&gt; to navigate between classes and their relevant job &lt;code&gt;.xml&lt;/code&gt; files.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;span&gt;&lt;img src="./../documentation/whatsnew/batch/images/4.3.0.Beta2/openon.gif" alt="openon"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;There are more news at &lt;a href="../documentation/whatsnew/jbosstools/4.3.0.Beta2.html#batch" target="_blank"&gt;Whats New&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#exploded-nested-jars" target="_blank"&gt;&lt;/a&gt;Exploded nested jars&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;In WildFly 8.2 there is now support for hotloading resources from exploded jars inside deployments, i.e. a jar inside your &lt;code&gt;WEB-INF/libs&lt;/code&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;This allows you to have faster reload times for module web applications using resources from nested jars.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Thanks to patch from &lt;a href="https://developer.jboss.org/people/vsevolodgolovanov" target="_blank"&gt;Vsevolod Golovanov&lt;/a&gt; we now support this when you are using our server tools. Thanks Vsevolod!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#deploy-hybrid-project-to-feedhenry" target="_blank"&gt;&lt;/a&gt;Deploy Hybrid project to FeedHenry&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;You can now take a hybrid mobile project created with Thym and deploy it to a FeedHenry cloud.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;span&gt;&lt;img src="./../documentation/whatsnew/aerogear/images/1.2.0.Beta2/NewApplicationWiz.png" alt="NewApplicationWiz"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Enjoy!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Alexey Kazakov&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/id3F6-ilrbU" height="1" width="1" alt=""/&gt;</content>
+	<updated>2016-12-12T22:16:17+00:00</updated>
+	<author><name>akazakov</name></author>
+	<source>
+		<link rel="self" href="http://tools.jboss.org/blog/" />
+		<title>JBoss Tools</title></source>
+
+	<category term="release" />
+
+	<category term="jbosstools" />
+
+	<category term="devstudio" />
+
+	<category term="jbosscentral" />
+
+
+<feedburner:origLink>https://tools.jboss.org/blog/beta2-for-mars.html</feedburner:origLink></entry>
+
+<entry>
+	<id>https://tools.jboss.org/blog/2015-06-23-beta1-for-mars.html</id>
+	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/QhbYaHQWFno/2015-06-23-beta1-for-mars.html" rel="alternate" type="text/html" />
+	<title>Developer Studio and JBoss Tools arrive on Mars</title>
+	<summary type="html"><![CDATA[
+      <div><div id="preamble">
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>I’m happy to announce that from today <a href="http://marketplace.eclipse.org/content/jboss-tools-mars">JBoss Tools 4.3 Beta1</a> and Developer Studio 9 Beta1 is available for download.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/blog/images/jbosstools-jbdevstudio-blog-header.png" alt="jbosstools jbdevstudio blog header" />
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="java-8-to-run-eclipse-older-runtimes-ok-for-builds-deployment"><a class="anchor" href="#java-8-to-run-eclipse-older-runtimes-ok-for-builds-deployment"></a>Java 8 to run Eclipse; older runtimes OK for builds/deployment</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>To use this Beta, you must run Eclipse with Java 8.</p>
+      </div>
+      <div class="paragraph">
+      <p>You can still target development for old Java versions though. Yes, you can still target your Java 1.4 projects :)</p>
+      </div>
+      <div class="paragraph">
+      <p>We are doing this because certain components of Eclipse Mars now require Java 8 (especially Sapphire) and
+      according to our usage stats, Java 8 will have gained majority this year.</p>
+      </div>
+      <div class="paragraph">
+      <p>But we have not made JBoss Tools <strong>dependent</strong> on Java 8 yet, since we want to get feedback from users on whether requiring Java 8 will be a problem.</p>
+      </div>
+      <div class="paragraph">
+      <p>Let us know on our forum, or contact Red Hat support if this will be a problem for you to use it.</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="installation"><a class="anchor" href="#installation"></a>Installation</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>JBoss Developer Studio comes with everything pre-bundled in its installer. Simply download it from our <a href="https://www.jboss.org/products/devstudio.html">JBoss Products page</a> and run it like this:</p>
+      </div>
+      <div class="literalblock">
+      <div class="content">
+      <pre>java -jar jboss-devstudio-&lt;installername&gt;.jar</pre>
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>JBoss Tools or Bring-Your-Own-Eclipse (BYOE) JBoss Developer Studio require a bit more:</p>
+      </div>
+      <div class="paragraph">
+      <p>This release requires at least Eclipse 4.5 (Mars) but we recommend
+      using the <a href="https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/marsrc3">Eclipse
+      4.5 JEE Bundle</a> since then you get most of the dependencies
+      preinstalled. In case that page it not available check <a href="https://www.eclipse.org/downloads/">main eclipse</a> download for the Mars release.</p>
+      </div>
+      <div class="paragraph">
+      <p>Once you have installed Eclipse, you can either find us on the Eclipse Marketplace under &quot;JBoss Tools (Mars)&quot; or &quot;JBoss Developer Studio (Mars)&quot;.</p>
+      </div>
+      <div class="paragraph">
+      <p>For JBoss Tools, you can also use our update site directly if you are up for it.</p>
+      </div>
+      <div class="literalblock">
+      <div class="content">
+      <pre>http://download.jboss.org/jbosstools/mars/development/updates</pre>
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>Note: Integration Stack tooling will become available from JBoss Central at a later date.</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="what-is-new"><a class="anchor" href="#what-is-new"></a>What is new ?</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>The full details of what is new is available on <a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Beta1.html">this page</a>. Some highlights below.</p>
+      </div>
+      <div class="sect2">
+      <h3 id="new-shiny-central"><a class="anchor" href="#new-shiny-central"></a>New Shiny Central</h3>
+      <div class="paragraph">
+      <p>JBoss Central has now been updated to be faster to load, less overloaded and give access to <strong>any</strong> project example from developer.jboss.org.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/blog/images/html5_central.png" alt="html5 central" />
+      </div>
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="docker-tooling"><a class="anchor" href="#docker-tooling"></a>Docker tooling</h3>
+      <div class="paragraph">
+      <p>There is now tooling to connect to (multiple) Docker daemons which allows you to pull, build, start, stop, etc. Images and Containers.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/docker/images/docker_explorer_view.png" alt="docker explorer view" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>The Docker tooling is technically part of Eclipse Mars, but we wanted to make it easily available to all JBoss Tools users, so we included it into our updatesite. In future releases, we will add some specific JBoss Tools integrations for our server adapters and OpenShift - but for now, what is included are the vanilla Eclipse Mars Docker tools.</p>
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="visual-java-ee-7-batch"><a class="anchor" href="#visual-java-ee-7-batch"></a>Visual Java EE 7 Batch</h3>
+      <div class="paragraph">
+      <p>We’ve added a visual diagram editor for Java EE 7 Batch tooling. Allowing you to visualize and edit your batch flow:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/batch/images/4.3.0.Beta1/diagram.png" alt="diagram" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>Big thanks to Tomáš Milata who worked on this for his thesis and contributed the foundation for this functionality!</p>
+      </div>
+      <div class="paragraph">
+      <p>Below is a <a href="https://www.youtube.com/embed/wmWFQKvTWSc">video</a> of the highlights of the feature set:</p>
+      </div>
+      <div class="videoblock">
+      <div class="content">
+      <iframe src="//www.youtube.com/embed/wmWFQKvTWSc?rel=0" frameborder="0" allowfullscreen=""></iframe>
+      </div>
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="openshift-3"><a class="anchor" href="#openshift-3"></a>OpenShift 3</h3>
+      <div class="paragraph">
+      <p>OpenShift 3 now works with OAuth logins as well as basic authentication and there is now support
+      for creating applications from OpenShift/Kubernetes templates.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/create-from-template.png" alt="create from template" />
+      </div>
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="port-monitoring"><a class="anchor" href="#port-monitoring"></a>Port Monitoring</h3>
+      <div class="paragraph">
+      <p>JBoss server adapters now support port monitoring, allowing you to trace and inspect requests made to a server.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/blog/images/20150521-monitoring-view.png" alt="20150521 monitoring view" />
+      </div>
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="experimental-launchbar"><a class="anchor" href="#experimental-launchbar"></a>Experimental LaunchBar</h3>
+      <div class="paragraph">
+      <p>The Eclipse CDT project created a new feature called the LaunchBar, allowing to easily run launch configurations.
+      We’ve added experimental support for WTP server adapters (like JBoss server adapters) making them as easy to run as a Java app.
+      <a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Beta1.html#launchbar">Details here</a>.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/server/images/20150604_launchbar.png" alt="20150604 launchbar" />
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="next-steps"><a class="anchor" href="#next-steps"></a>Next steps</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>Let us know what you like/hate about the release and if you find
+      issues, please open a ticket at our
+      <a href="https://jira.jboss.org/jira/browse/JBIDE">issue tracker</a>.</p>
+      </div>
+      <div class="paragraph">
+      <p>Going from Beta1 to Beta2, we are focusing on reported issues and going
+      for improving Docker, OpenShift, JavaScript and JavaEE related
+      features.</p>
+      </div>
+      <div class="paragraph">
+      <p>Hope you enjoy it and remember…​</p>
+      </div>
+      <div class="paragraph">
+      <p>Have fun!</p>
+      </div>
+      <div class="paragraph">
+      <p>Max Rydahl Andersen<br />
+      <a href="http://twitter.com/maxandersen">@maxandersen</a></p>
+      </div>
+      </div>
+      </div></div>
+    ]]></summary>
+	<content type="html">&lt;html&gt;&lt;body&gt;&lt;div&gt;&lt;div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;I&amp;rsquo;m happy to announce that from today &lt;a href="http://marketplace.eclipse.org/content/jboss-tools-mars" target="_blank"&gt;JBoss Tools 4.3 Beta1&lt;/a&gt; and Developer Studio 9 Beta1 is available for download.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/blog/images/jbosstools-jbdevstudio-blog-header.png" alt="jbosstools jbdevstudio blog header"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#java-8-to-run-eclipse-older-runtimes-ok-for-builds-deployment" target="_blank"&gt;&lt;/a&gt;Java 8 to run Eclipse; older runtimes OK for builds/deployment&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;To use this Beta, you must run Eclipse with Java 8.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;You can still target development for old Java versions though. Yes, you can still target your Java 1.4 projects :)&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;We are doing this because certain components of Eclipse Mars now require Java 8 (especially Sapphire) and
+      according to our usage stats, Java 8 will have gained majority this year.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;But we have not made JBoss Tools &lt;strong&gt;dependent&lt;/strong&gt; on Java 8 yet, since we want to get feedback from users on whether requiring Java 8 will be a problem.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Let us know on our forum, or contact Red Hat support if this will be a problem for you to use it.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#installation" target="_blank"&gt;&lt;/a&gt;Installation&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;JBoss Developer Studio comes with everything pre-bundled in its installer. Simply download it from our &lt;a href="https://www.jboss.org/products/devstudio.html" target="_blank"&gt;JBoss Products page&lt;/a&gt; and run it like this:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;pre&gt;java -jar jboss-devstudio-&amp;lt;installername&amp;gt;.jar&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;JBoss Tools or Bring-Your-Own-Eclipse (BYOE) JBoss Developer Studio require a bit more:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;This release requires at least Eclipse 4.5 (Mars) but we recommend
+      using the &lt;a href="https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/marsrc3" target="_blank"&gt;Eclipse
+      4.5 JEE Bundle&lt;/a&gt; since then you get most of the dependencies
+      preinstalled. In case that page it not available check &lt;a href="https://www.eclipse.org/downloads/" target="_blank"&gt;main eclipse&lt;/a&gt; download for the Mars release.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Once you have installed Eclipse, you can either find us on the Eclipse Marketplace under "JBoss Tools (Mars)" or "JBoss Developer Studio (Mars)".&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;For JBoss Tools, you can also use our update site directly if you are up for it.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;pre&gt;http://download.jboss.org/jbosstools/mars/development/updates&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Note: Integration Stack tooling will become available from JBoss Central at a later date.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#what-is-new" target="_blank"&gt;&lt;/a&gt;What is new ?&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;The full details of what is new is available on &lt;a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Beta1.html" target="_blank"&gt;this page&lt;/a&gt;. Some highlights below.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#new-shiny-central" target="_blank"&gt;&lt;/a&gt;New Shiny Central&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;JBoss Central has now been updated to be faster to load, less overloaded and give access to &lt;strong&gt;any&lt;/strong&gt; project example from developer.jboss.org.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/blog/images/html5_central.png" alt="html5 central"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#docker-tooling" target="_blank"&gt;&lt;/a&gt;Docker tooling&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;There is now tooling to connect to (multiple) Docker daemons which allows you to pull, build, start, stop, etc. Images and Containers.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/docker/images/docker_explorer_view.png" alt="docker explorer view"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;The Docker tooling is technically part of Eclipse Mars, but we wanted to make it easily available to all JBoss Tools users, so we included it into our updatesite. In future releases, we will add some specific JBoss Tools integrations for our server adapters and OpenShift - but for now, what is included are the vanilla Eclipse Mars Docker tools.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#visual-java-ee-7-batch" target="_blank"&gt;&lt;/a&gt;Visual Java EE 7 Batch&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;We&amp;rsquo;ve added a visual diagram editor for Java EE 7 Batch tooling. Allowing you to visualize and edit your batch flow:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/batch/images/4.3.0.Beta1/diagram.png" alt="diagram"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Big thanks to Tom&amp;aacute;&amp;scaron; Milata who worked on this for his thesis and contributed the foundation for this functionality!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Below is a &lt;a href="https://www.youtube.com/embed/wmWFQKvTWSc" target="_blank"&gt;video&lt;/a&gt; of the highlights of the feature set:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#openshift-3" target="_blank"&gt;&lt;/a&gt;OpenShift 3&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;OpenShift 3 now works with OAuth logins as well as basic authentication and there is now support
+      for creating applications from OpenShift/Kubernetes templates.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/create-from-template.png" alt="create from template"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#port-monitoring" target="_blank"&gt;&lt;/a&gt;Port Monitoring&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;JBoss server adapters now support port monitoring, allowing you to trace and inspect requests made to a server.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/blog/images/20150521-monitoring-view.png" alt="20150521 monitoring view"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#experimental-launchbar" target="_blank"&gt;&lt;/a&gt;Experimental LaunchBar&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;The Eclipse CDT project created a new feature called the LaunchBar, allowing to easily run launch configurations.
+      We&amp;rsquo;ve added experimental support for WTP server adapters (like JBoss server adapters) making them as easy to run as a Java app.
+      &lt;a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Beta1.html#launchbar" target="_blank"&gt;Details here&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/server/images/20150604_launchbar.png" alt="20150604 launchbar"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#next-steps" target="_blank"&gt;&lt;/a&gt;Next steps&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Let us know what you like/hate about the release and if you find
+      issues, please open a ticket at our
+      &lt;a href="https://jira.jboss.org/jira/browse/JBIDE" target="_blank"&gt;issue tracker&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Going from Beta1 to Beta2, we are focusing on reported issues and going
+      for improving Docker, OpenShift, JavaScript and JavaEE related
+      features.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Hope you enjoy it and remember&amp;hellip;&amp;#8203;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Have fun!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Max Rydahl Andersen&lt;br&gt;&lt;a href="http://twitter.com/maxandersen" target="_blank"&gt;@maxandersen&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/QhbYaHQWFno" height="1" width="1" alt=""/&gt;</content>
+	<updated>2016-12-12T22:16:17+00:00</updated>
+	<author><name>maxandersen</name></author>
+	<source>
+		<link rel="self" href="http://tools.jboss.org/blog/" />
+		<title>JBoss Tools</title></source>
+
+	<category term="release" />
+
+	<category term="jbosstools" />
+
+	<category term="devstudio" />
+
+	<category term="jbosscentral" />
+
+
+<feedburner:origLink>https://tools.jboss.org/blog/2015-06-23-beta1-for-mars.html</feedburner:origLink></entry>
+
+<entry>
+	<id>https://tools.jboss.org/blog/eclipse-for-docker-has-arrived.html</id>
+	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/S7h_byMO5l4/eclipse-for-docker-has-arrived.html" rel="alternate" type="text/html" />
+	<title>Eclipse for Docker has arrived on Mars</title>
+	<summary type="html"><![CDATA[
+      <div><div id="preamble">
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>Eclipse Mars has arrived, and with it comes a brand new Docker tooling for it.</p>
+      </div>
+      <div class="admonitionblock note">
+      <table>
+      <tr>
+      <td class="icon">
+      <i class="fa icon-note" title="Note"></i>
+      </td>
+      <td class="content">
+      This blog is a cross-post from
+      <a href="http://www.eclipse.org/community/eclipse_newsletter/2015/june/">Eclipse
+      Newsletter: Landed On MARS</a> where you can read about more things
+      included in recent released Eclipse Mars.
+      </td>
+      </tr>
+      </table>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="goals"><a class="anchor" href="#goals"></a>Goals</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>We wanted to have a way to easily start/stop and deploy
+      Docker containers directly from Eclipse.</p>
+      </div>
+      <div class="paragraph">
+      <p>We wanted something that would run on all three major platforms:
+      Windows, Linux and OS X.</p>
+      </div>
+      <div class="paragraph">
+      <p>We wanted something that would work together with existing Docker
+      command line tools, but also utilized provide better overview and
+      easier/faster access to common operations, from a visual perspective.</p>
+      </div>
+      <div class="paragraph">
+      <p>We wanted it to be released with Eclipse Mars.</p>
+      </div>
+      <div class="paragraph">
+      <p>…​and that is what we got now.</p>
+      </div>
+      <div class="paragraph">
+      <p>This article runs through how to get it installed, the main features and what the future plans are.</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="where-do-i-get-it"><a class="anchor" href="#where-do-i-get-it"></a>Where do I get it ?</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>With Eclipse Mars released, you can get it from the Eclipse Mars
+      updatesite, the feature is named <code>Docker Tooling</code>.</p>
+      </div>
+      <div class="paragraph">
+      <p>If you want to try the latest greatest builds you can use <code>Linux Tools</code>
+      project nightly builds update site at
+      <code><a href="http://download.eclipse.org/linuxtools/updates-docker-nightly/" class="bare">http://download.eclipse.org/linuxtools/updates-docker-nightly/</a></code></p>
+      </div>
+      <div class="paragraph">
+      <p>To use the plugins, it is assumed that Docker is already installed.
+      You can see <a href="https://docs.docker.com/installation/#installation">Docker’s Installation guide</a> on how
+      to do this on various platforms.</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="views-and-perspectives"><a class="anchor" href="#views-and-perspectives"></a>Views and Perspectives</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>Once you have installed the Docker tooling, you will get access to three new views:</p>
+      </div>
+      <div class="dlist">
+      <dl>
+      <dt class="hdlist1">Docker Explorer </dt>
+      <dd>
+      <p>a tree view listing all connected Docker instances, with image and containers.</p>
+      </dd>
+      <dt class="hdlist1">Docker Containers </dt>
+      <dd>
+      <p>a table view listing containers for selected Docker connection</p>
+      </dd>
+      <dt class="hdlist1">Docker Images </dt>
+      <dd>
+      <p>a table view listing images available in the selected Docker connection</p>
+      </dd>
+      </dl>
+      </div>
+      <div class="paragraph">
+      <p>The easiest way to get to see these are by opening the <em>Docker Tooling</em> perspective.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="./images/dockerarrived/docker_tooling_perspective.png" alt="Docker Tooling Perspective" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>In the screen above, the Docker tooling are connected to a locally running Docker deamon named <code>boot2docker</code>.</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="connect"><a class="anchor" href="#connect"></a>Connect</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>To configure this you click the <code>Add Connection…​</code> button in the <code>Docker Explorer</code> view.</p>
+      </div>
+      <div class="paragraph">
+      <p>This will start a wizard that will try to detect your default Docker
+      connection setup, dependent on your operating system.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="./images/dockerarrived/add_docker_connection.png" alt="Add Connection Wizard" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>In Linux it will use standard unix sockets and if on Windows or OSX, it will look for the following
+      environment variables: <code>DOCKER_HOST</code>, <code>DOCKER_TLS_VERIFY</code> and <code>DOCKER_CERT_PATH</code>.</p>
+      </div>
+      <div class="paragraph">
+      <p>If neither of these are detectable, you can click <code>Use custom connection settings</code> and provide the connection info.</p>
+      </div>
+      <div class="paragraph">
+      <p>When you have the connection working you can get started using Docker images.</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="pull-individual-images"><a class="anchor" href="#pull-individual-images"></a>Pull individual images</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>To pull an image, you use the <code>Pull Image</code> in the Docker Image view.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="./images/dockerarrived/docker_pull_image.png" alt="Pull Image" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>Here, I’m simply pulling the <a href="https://registry.hub.docker.com/u/jboss/wildfly/">jboss/wildfly</a> image, a image amongst many available at <a href="http://hub.docker.com" class="bare">http://hub.docker.com</a>.</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="run"><a class="anchor" href="#run"></a>Run</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>To run the image, the easiest way is to right-click on the image in the Docker Explorer.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="./images/dockerarrived/docker_explorer_run.png" alt="Run Image from Docker Explorer" width="400" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>Here, I’ve initially filtered the list to just show images matching <code>wildfly</code> and then using right-click to choose the <code>Run Image…​</code> action.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="./images/dockerarrived/docker_run_image.png" alt="Docker Run" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>From within this dialog you can also search in Docker Hub for other images by clicking <code>Search…​</code>.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="./images/dockerarrvied/docker_search.png" alt="Docker search" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>In this example, I’m only going to focus on running using the defaults, but in the Run Image wizard you can also configure
+      ports, links, volumes, environment variables etc.</p>
+      </div>
+      <div class="paragraph">
+      <p>By default, we enable interactive and tty mode to allow you to interact with the docker container in the console (i.e. if the image asks for input).</p>
+      </div>
+      <div class="paragraph">
+      <p>When you click <code>Finish</code>, the container will start and show output in a Console and the Docker Containers view will show which ports are used.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="./images/dockerarrived/docker_run_console.png" alt="Console" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>In here, the port at 8080 (the web server) is mapped to 32768 on the docker daemon.</p>
+      </div>
+      <div class="paragraph">
+      <p>To show this I just need to goto <a href="http://dockerhost:32768" class="bare">http://dockerhost:32768</a> to access it. <code>dockerhost</code> is the IP of the docker daemon.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="./images/dockerarrived/docker_browser.png" alt="Browse" />
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="build"><a class="anchor" href="#build"></a>Build</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>If you have a <code>Dockerfile</code> you can build it via the <code>hammer</code> icon on the Image view. This will start the Build wizard.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="./images/dockerarrived/docker_build.png" alt="docker build" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>Once built, the image will show up and be possible to use for <a href="#run">running</a>.</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="properties"><a class="anchor" href="#properties"></a>Properties</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>You can view properties for all the various parts: connection, image and container, including getting a tree view of what <code>docker inspect</code> would show.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="./images/dockerarrived/docker_properties.png" alt="docker properties" width="300" />
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="future"><a class="anchor" href="#future"></a>Future</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>For Eclipse Mars we added all of the above base features and you can use it in your day-to-day work with Docker.</p>
+      </div>
+      <div class="paragraph">
+      <p>For Eclipse Mars SR1, we will work on getting some of the rough edges fixed, like &apos;Run&apos; and &apos;Build&apos; should be available in the context menu and not only in the views menu.</p>
+      </div>
+      <div class="paragraph">
+      <p>Work also started in Eclipse CDT to support using Docker images to build binaries for an OS other than the one you are running on.
+      The vision for this would allow running on Windows or Mac, but target native deployment on multiple various Linux architectures.</p>
+      </div>
+      <div class="paragraph">
+      <p>Furthermore in <a href="https://tools.jboss.org">JBoss Tools</a> we are working on better integrating Docker with Eclipse server adapters, to ease deployment of your web applications to a Docker container. You can see how server deployment works with the current Docker tooling by leveraging <a href="https://tools.jboss.org/blog/2015-03-02-getting-started-with-docker-and-wildfly.html">docker volumes</a> and <a href="https://tools.jboss.org/blog/2015-03-03-docker-and-wildfly-2.html">remote deployment</a> support.</p>
+      </div>
+      <div class="paragraph">
+      <p>If you have suggestions or find bugs, please open these in the <a href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Linux%20Tools">Linux Tools project under Docker</a>.</p>
+      </div>
+      <div class="paragraph">
+      <p>Have fun!</p>
+      </div>
+      <div class="paragraph">
+      <p>Max Rydahl Andersen<br />
+      <a href="http://twitter.com/maxandersen">@maxandersen</a></p>
+      </div>
+      </div>
+      </div></div>
+    ]]></summary>
+	<content type="html">&lt;html&gt;&lt;body&gt;&lt;div&gt;&lt;div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Eclipse Mars has arrived, and with it comes a brand new Docker tooling for it.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;table&gt;&lt;tr&gt;&lt;td&gt;
+      &lt;i title="Note"&gt;&lt;/i&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+      This blog is a cross-post from
+      &lt;a href="http://www.eclipse.org/community/eclipse_newsletter/2015/june/" target="_blank"&gt;Eclipse
+      Newsletter: Landed On MARS&lt;/a&gt; where you can read about more things
+      included in recent released Eclipse Mars.
+      &lt;/td&gt;
+      &lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#goals" target="_blank"&gt;&lt;/a&gt;Goals&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;We wanted to have a way to easily start/stop and deploy
+      Docker containers directly from Eclipse.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;We wanted something that would run on all three major platforms:
+      Windows, Linux and OS X.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;We wanted something that would work together with existing Docker
+      command line tools, but also utilized provide better overview and
+      easier/faster access to common operations, from a visual perspective.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;We wanted it to be released with Eclipse Mars.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&amp;hellip;&amp;#8203;and that is what we got now.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;This article runs through how to get it installed, the main features and what the future plans are.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#where-do-i-get-it" target="_blank"&gt;&lt;/a&gt;Where do I get it ?&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;With Eclipse Mars released, you can get it from the Eclipse Mars
+      updatesite, the feature is named &lt;code&gt;Docker Tooling&lt;/code&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;If you want to try the latest greatest builds you can use &lt;code&gt;Linux Tools&lt;/code&gt;
+      project nightly builds update site at
+      &lt;code&gt;&lt;a href="http://download.eclipse.org/linuxtools/updates-docker-nightly/" target="_blank"&gt;http://download.eclipse.org/linuxtools/updates-docker-nightly/&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;To use the plugins, it is assumed that Docker is already installed.
+      You can see &lt;a href="https://docs.docker.com/installation/#installation" target="_blank"&gt;Docker&amp;rsquo;s Installation guide&lt;/a&gt; on how
+      to do this on various platforms.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#views-and-perspectives" target="_blank"&gt;&lt;/a&gt;Views and Perspectives&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Once you have installed the Docker tooling, you will get access to three new views:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;dl&gt;&lt;dt&gt;Docker Explorer &lt;/dt&gt;
+      &lt;dd&gt;
+      &lt;p&gt;a tree view listing all connected Docker instances, with image and containers.&lt;/p&gt;
+      &lt;/dd&gt;
+      &lt;dt&gt;Docker Containers &lt;/dt&gt;
+      &lt;dd&gt;
+      &lt;p&gt;a table view listing containers for selected Docker connection&lt;/p&gt;
+      &lt;/dd&gt;
+      &lt;dt&gt;Docker Images &lt;/dt&gt;
+      &lt;dd&gt;
+      &lt;p&gt;a table view listing images available in the selected Docker connection&lt;/p&gt;
+      &lt;/dd&gt;
+      &lt;/dl&gt;&lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;The easiest way to get to see these are by opening the &lt;em&gt;Docker Tooling&lt;/em&gt; perspective.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="./images/dockerarrived/docker_tooling_perspective.png" alt="Docker Tooling Perspective"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;In the screen above, the Docker tooling are connected to a locally running Docker deamon named &lt;code&gt;boot2docker&lt;/code&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#connect" target="_blank"&gt;&lt;/a&gt;Connect&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;To configure this you click the &lt;code&gt;Add Connection&amp;hellip;&amp;#8203;&lt;/code&gt; button in the &lt;code&gt;Docker Explorer&lt;/code&gt; view.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;This will start a wizard that will try to detect your default Docker
+      connection setup, dependent on your operating system.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="./images/dockerarrived/add_docker_connection.png" alt="Add Connection Wizard"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;In Linux it will use standard unix sockets and if on Windows or OSX, it will look for the following
+      environment variables: &lt;code&gt;DOCKER_HOST&lt;/code&gt;, &lt;code&gt;DOCKER_TLS_VERIFY&lt;/code&gt; and &lt;code&gt;DOCKER_CERT_PATH&lt;/code&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;If neither of these are detectable, you can click &lt;code&gt;Use custom connection settings&lt;/code&gt; and provide the connection info.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;When you have the connection working you can get started using Docker images.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#pull-individual-images" target="_blank"&gt;&lt;/a&gt;Pull individual images&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;To pull an image, you use the &lt;code&gt;Pull Image&lt;/code&gt; in the Docker Image view.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="./images/dockerarrived/docker_pull_image.png" alt="Pull Image"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Here, I&amp;rsquo;m simply pulling the &lt;a href="https://registry.hub.docker.com/u/jboss/wildfly/" target="_blank"&gt;jboss/wildfly&lt;/a&gt; image, a image amongst many available at &lt;a href="http://hub.docker.com" target="_blank"&gt;http://hub.docker.com&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#run" target="_blank"&gt;&lt;/a&gt;Run&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;To run the image, the easiest way is to right-click on the image in the Docker Explorer.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="./images/dockerarrived/docker_explorer_run.png" alt="Run Image from Docker Explorer" width="400"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Here, I&amp;rsquo;ve initially filtered the list to just show images matching &lt;code&gt;wildfly&lt;/code&gt; and then using right-click to choose the &lt;code&gt;Run Image&amp;hellip;&amp;#8203;&lt;/code&gt; action.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="./images/dockerarrived/docker_run_image.png" alt="Docker Run"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;From within this dialog you can also search in Docker Hub for other images by clicking &lt;code&gt;Search&amp;hellip;&amp;#8203;&lt;/code&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="./images/dockerarrvied/docker_search.png" alt="Docker search"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;In this example, I&amp;rsquo;m only going to focus on running using the defaults, but in the Run Image wizard you can also configure
+      ports, links, volumes, environment variables etc.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;By default, we enable interactive and tty mode to allow you to interact with the docker container in the console (i.e. if the image asks for input).&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;When you click &lt;code&gt;Finish&lt;/code&gt;, the container will start and show output in a Console and the Docker Containers view will show which ports are used.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="./images/dockerarrived/docker_run_console.png" alt="Console"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;In here, the port at 8080 (the web server) is mapped to 32768 on the docker daemon.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;To show this I just need to goto &lt;a href="http://dockerhost:32768" target="_blank"&gt;http://dockerhost:32768&lt;/a&gt; to access it. &lt;code&gt;dockerhost&lt;/code&gt; is the IP of the docker daemon.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="./images/dockerarrived/docker_browser.png" alt="Browse"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#build" target="_blank"&gt;&lt;/a&gt;Build&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;If you have a &lt;code&gt;Dockerfile&lt;/code&gt; you can build it via the &lt;code&gt;hammer&lt;/code&gt; icon on the Image view. This will start the Build wizard.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="./images/dockerarrived/docker_build.png" alt="docker build"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Once built, the image will show up and be possible to use for &lt;a href="#run" target="_blank"&gt;running&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#properties" target="_blank"&gt;&lt;/a&gt;Properties&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;You can view properties for all the various parts: connection, image and container, including getting a tree view of what &lt;code&gt;docker inspect&lt;/code&gt; would show.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="./images/dockerarrived/docker_properties.png" alt="docker properties" width="300"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#future" target="_blank"&gt;&lt;/a&gt;Future&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;For Eclipse Mars we added all of the above base features and you can use it in your day-to-day work with Docker.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;For Eclipse Mars SR1, we will work on getting some of the rough edges fixed, like 'Run' and 'Build' should be available in the context menu and not only in the views menu.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Work also started in Eclipse CDT to support using Docker images to build binaries for an OS other than the one you are running on.
+      The vision for this would allow running on Windows or Mac, but target native deployment on multiple various Linux architectures.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Furthermore in &lt;a href="https://tools.jboss.org" target="_blank"&gt;JBoss Tools&lt;/a&gt; we are working on better integrating Docker with Eclipse server adapters, to ease deployment of your web applications to a Docker container. You can see how server deployment works with the current Docker tooling by leveraging &lt;a href="https://tools.jboss.org/blog/2015-03-02-getting-started-with-docker-and-wildfly.html" target="_blank"&gt;docker volumes&lt;/a&gt; and &lt;a href="https://tools.jboss.org/blog/2015-03-03-docker-and-wildfly-2.html" target="_blank"&gt;remote deployment&lt;/a&gt; support.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;If you have suggestions or find bugs, please open these in the &lt;a href="https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Linux%20Tools" target="_blank"&gt;Linux Tools project under Docker&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Have fun!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Max Rydahl Andersen&lt;br&gt;&lt;a href="http://twitter.com/maxandersen" target="_blank"&gt;@maxandersen&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/S7h_byMO5l4" height="1" width="1" alt=""/&gt;</content>
+	<updated>2016-12-12T22:16:17+00:00</updated>
+	<author><name>maxandersen</name></author>
+	<source>
+		<link rel="self" href="http://tools.jboss.org/blog/" />
+		<title>JBoss Tools</title></source>
+
+	<category term="docker" />
+
+	<category term="jbosscentral" />
+
+
+<feedburner:origLink>https://tools.jboss.org/blog/eclipse-for-docker-has-arrived.html</feedburner:origLink></entry>
+
+<entry>
+	<id>https://tools.jboss.org/blog/bower-support-is-coming.html</id>
+	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/BfgzyRRPkSc/bower-support-is-coming.html" rel="alternate" type="text/html" />
+	<title>Bower support is coming to JBoss Tools</title>
+	<summary type="html"><![CDATA[
+      <div><div id="preamble">
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>In this article I’m happy to introduce brand new JBoss Bower Tools:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="./images/20150721_bower/jbosstools-bower.png" alt="Bower JBoss Tools" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p><a href="http://bower.io/">Bower</a> is a front-end package manager which works by fetching and installing frameworks, libraries, assets. It offers a generic, unopinionated solution to the problem of front-end package management, while exposing the package dependency model via an API that can be consumed by a more opinionated build stack. Bower provides declarative dependency management (dependencies are declared and tracked in a manifest file, <code>bower.json</code>).</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="pre-requirements"><a class="anchor" href="#pre-requirements"></a>Pre-Requirements</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>JBoss Bower Tools fall back on <strong>native</strong>  Node.js and Bower calls. Hence, the following software must be pre-installed:</p>
+      </div>
+      <div class="ulist">
+      <ul>
+      <li>
+      <p>Node.js</p>
+      </li>
+      <li>
+      <p>npm</p>
+      </li>
+      <li>
+      <p>Bower</p>
+      </li>
+      </ul>
+      </div>
+      <div class="admonitionblock tip">
+      <table>
+      <tr>
+      <td class="icon">
+      <i class="fa icon-tip" title="Tip"></i>
+      </td>
+      <td class="content">
+      Installation instructions for <strong>Node.js</strong> and <strong>npm</strong> can be found <a href="https://docs.npmjs.com/getting-started/installing-node">here</a>. Bower is a command line utility which is installed via npm command <code>npm install -g bower</code>
+      </td>
+      </tr>
+      </table>
+      </div>
+      <div class="paragraph">
+      <p>And then of course <a href="https://tools.jboss.org/downloads/jbosstools/mars/4.3.0.Nightly.html">latest build of JBoss Tools for Mars</a>.</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="quick-start-guide"><a class="anchor" href="#quick-start-guide"></a>Quick Start Guide</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>For now only <strong><a href="http://bower.io/docs/api/#init">init</a></strong> and <strong><a href="http://bower.io/docs/api/#update">update</a></strong> commands of Bower API are supported. In order to initialize Bower one need to select <strong>File → New…​ → Other…​</strong> and choose <strong>&quot;Bower Init&quot;</strong> wizard:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="./images/20150721_bower/bower-init-new-wizard.png" alt="Bower Init wizard" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>This wizard helps to create <code>bower.json</code> file depending on set of preferences:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="./images/20150721_bower/bower-init-wizard-page.png" alt="Bower Init wizard page" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>After pressing <strong>&quot;Finish&quot;</strong> button <code>bower.json</code> will be created under specified directory:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="./images/20150721_bower/bower-json-default.png" alt="Default bower.json" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>In order to add new dependencies one need to specify them in <code>bower.json</code>:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="./images/20150721_bower/bower-dependencies.png" alt="Bower dependencies" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>For updating dependencies user should right-click on the <code>bower.json</code> → <strong>Run As…​</strong> → <strong>Bower Update</strong></p>
+      </div>
+      <div class="admonitionblock tip">
+      <table>
+      <tr>
+      <td class="icon">
+      <i class="fa icon-tip" title="Tip"></i>
+      </td>
+      <td class="content">
+      In most cases <strong>Bower</strong> and <strong>Node.js</strong> will be detected in the system automatically. However, if the detection failed warn dialog will be shown for specifying location in preferences:
+      </td>
+      </tr>
+      </table>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="./images/20150721_bower/bower-preferences.png" alt="Bower preferences" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p><strong>&quot;Bower Update&quot;</strong> launch shortcut makes a native call which will install required packages or update them to the newest version according to <code>bower.json</code>:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="./images/20150721_bower/bower-update-launch.png" alt="Bower Update launch" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>Specified packages will be created under <code>bower_components</code> folder after <strong>&quot;Bower Update&quot;</strong> execution:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="./images/20150721_bower/bower-components.png" alt="Bower components" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>Basically, that is all - one can now use those packages for future front-end development.</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="demo"><a class="anchor" href="#demo"></a>Demo</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>Here is a short demo <a href="https://vimeo.com/133675030">video</a> which describes a basic use case of JBoss Bower Tools:</p>
+      </div>
+      <div class="videoblock">
+      <div class="content">
+      <iframe width="640" height="400" src="//player.vimeo.com/video/133675030" frameborder="0" allowfullscreen=""></iframe>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="how-to-give-it-a-go"><a class="anchor" href="#how-to-give-it-a-go"></a>How to give it a go ?</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>Bower support will be available in <code>4.3.0.Beta2</code> release and above. You can also use our nightly <a href="http://download.jboss.org/jbosstools/updates/nightly/mars/">update site</a> in order to try Bower Tools (<code>JBoss Tools JavaScript Tools</code> category) before the official release:</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="./images/20150721_bower/bower-javascript-tools.png" alt="Bower dependencies" />
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="conclusion"><a class="anchor" href="#conclusion"></a>Conclusion</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>We are trying our best to make our tools as good as possible. User feedback is what we are seeking for now. We look forward to hearing your comments, remarks and proposals.<br />
+      Have fun!</p>
+      </div>
+      <div class="paragraph">
+      <p>Ilya Buziuk<br />
+      <a href="https://twitter.com/ilyabuziuk">@ilyabuziuk</a></p>
+      </div>
+      </div>
+      </div></div>
+    ]]></summary>
+	<content type="html">&lt;html&gt;&lt;body&gt;&lt;div&gt;&lt;div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;In this article I&amp;rsquo;m happy to introduce brand new JBoss Bower Tools:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="./images/20150721_bower/jbosstools-bower.png" alt="Bower JBoss Tools"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;a href="http://bower.io/" target="_blank"&gt;Bower&lt;/a&gt; is a front-end package manager which works by fetching and installing frameworks, libraries, assets. It offers a generic, unopinionated solution to the problem of front-end package management, while exposing the package dependency model via an API that can be consumed by a more opinionated build stack. Bower provides declarative dependency management (dependencies are declared and tracked in a manifest file, &lt;code&gt;bower.json&lt;/code&gt;).&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#pre-requirements" target="_blank"&gt;&lt;/a&gt;Pre-Requirements&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;JBoss Bower Tools fall back on &lt;strong&gt;native&lt;/strong&gt;  Node.js and Bower calls. Hence, the following software must be pre-installed:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;ul&gt;&lt;li&gt;
+      &lt;p&gt;Node.js&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;npm&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Bower&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;&lt;/div&gt;
+      &lt;div&gt;
+      &lt;table&gt;&lt;tr&gt;&lt;td&gt;
+      &lt;i title="Tip"&gt;&lt;/i&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+      Installation instructions for &lt;strong&gt;Node.js&lt;/strong&gt; and &lt;strong&gt;npm&lt;/strong&gt; can be found &lt;a href="https://docs.npmjs.com/getting-started/installing-node" target="_blank"&gt;here&lt;/a&gt;. Bower is a command line utility which is installed via npm command &lt;code&gt;npm install -g bower&lt;/code&gt;
+      &lt;/td&gt;
+      &lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;And then of course &lt;a href="https://tools.jboss.org/downloads/jbosstools/mars/4.3.0.Nightly.html" target="_blank"&gt;latest build of JBoss Tools for Mars&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#quick-start-guide" target="_blank"&gt;&lt;/a&gt;Quick Start Guide&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;For now only &lt;strong&gt;&lt;a href="http://bower.io/docs/api/#init" target="_blank"&gt;init&lt;/a&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;a href="http://bower.io/docs/api/#update" target="_blank"&gt;update&lt;/a&gt;&lt;/strong&gt; commands of Bower API are supported. In order to initialize Bower one need to select &lt;strong&gt;File &amp;rarr; New&amp;hellip;&amp;#8203; &amp;rarr; Other&amp;hellip;&amp;#8203;&lt;/strong&gt; and choose &lt;strong&gt;"Bower Init"&lt;/strong&gt; wizard:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="./images/20150721_bower/bower-init-new-wizard.png" alt="Bower Init wizard"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;This wizard helps to create &lt;code&gt;bower.json&lt;/code&gt; file depending on set of preferences:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="./images/20150721_bower/bower-init-wizard-page.png" alt="Bower Init wizard page"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;After pressing &lt;strong&gt;"Finish"&lt;/strong&gt; button &lt;code&gt;bower.json&lt;/code&gt; will be created under specified directory:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="./images/20150721_bower/bower-json-default.png" alt="Default bower.json"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;In order to add new dependencies one need to specify them in &lt;code&gt;bower.json&lt;/code&gt;:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="./images/20150721_bower/bower-dependencies.png" alt="Bower dependencies"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;For updating dependencies user should right-click on the &lt;code&gt;bower.json&lt;/code&gt; &amp;rarr; &lt;strong&gt;Run As&amp;hellip;&amp;#8203;&lt;/strong&gt; &amp;rarr; &lt;strong&gt;Bower Update&lt;/strong&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;table&gt;&lt;tr&gt;&lt;td&gt;
+      &lt;i title="Tip"&gt;&lt;/i&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+      In most cases &lt;strong&gt;Bower&lt;/strong&gt; and &lt;strong&gt;Node.js&lt;/strong&gt; will be detected in the system automatically. However, if the detection failed warn dialog will be shown for specifying location in preferences:
+      &lt;/td&gt;
+      &lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="./images/20150721_bower/bower-preferences.png" alt="Bower preferences"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;strong&gt;"Bower Update"&lt;/strong&gt; launch shortcut makes a native call which will install required packages or update them to the newest version according to &lt;code&gt;bower.json&lt;/code&gt;:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="./images/20150721_bower/bower-update-launch.png" alt="Bower Update launch"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Specified packages will be created under &lt;code&gt;bower_components&lt;/code&gt; folder after &lt;strong&gt;"Bower Update"&lt;/strong&gt; execution:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="./images/20150721_bower/bower-components.png" alt="Bower components"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Basically, that is all - one can now use those packages for future front-end development.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#demo" target="_blank"&gt;&lt;/a&gt;Demo&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Here is a short demo &lt;a href="https://vimeo.com/133675030" target="_blank"&gt;video&lt;/a&gt; which describes a basic use case of JBoss Bower Tools:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#how-to-give-it-a-go" target="_blank"&gt;&lt;/a&gt;How to give it a go ?&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Bower support will be available in &lt;code&gt;4.3.0.Beta2&lt;/code&gt; release and above. You can also use our nightly &lt;a href="http://download.jboss.org/jbosstools/updates/nightly/mars/" target="_blank"&gt;update site&lt;/a&gt; in order to try Bower Tools (&lt;code&gt;JBoss Tools JavaScript Tools&lt;/code&gt; category) before the official release:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="./images/20150721_bower/bower-javascript-tools.png" alt="Bower dependencies"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#conclusion" target="_blank"&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;We are trying our best to make our tools as good as possible. User feedback is what we are seeking for now. We look forward to hearing your comments, remarks and proposals.&lt;br&gt;
+      Have fun!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Ilya Buziuk&lt;br&gt;&lt;a href="https://twitter.com/ilyabuziuk" target="_blank"&gt;@ilyabuziuk&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/BfgzyRRPkSc" height="1" width="1" alt=""/&gt;</content>
+	<updated>2016-12-12T22:16:17+00:00</updated>
+	<author><name>ibuziuk</name></author>
+	<source>
+		<link rel="self" href="http://tools.jboss.org/blog/" />
+		<title>JBoss Tools</title></source>
+
+	<category term="bower" />
+
+	<category term="javascript" />
+
+	<category term="jbosstools" />
+
+	<category term="devstudio" />
+
+
+<feedburner:origLink>https://tools.jboss.org/blog/bower-support-is-coming.html</feedburner:origLink></entry>
+
+<entry>
+	<id>https://tools.jboss.org/blog/ga-for-mars.html</id>
+	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/McXYFjY8Z8Q/ga-for-mars.html" rel="alternate" type="text/html" />
+	<title>JBoss Tools and Red Hat Developer Studio for Eclipse Mars</title>
+	<summary type="html"><![CDATA[
+      <div><div id="preamble">
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p><a href="https://tools.jboss.org/downloads/jbosstools/mars/4.3.0.Final.html">JBoss Tools 4.3</a> and <a href="https://tools.jboss.org/downloads/devstudio/mars/9.0.0.GA.html">Red Hat JBoss Developer Studio 9</a> for Eclipse Mars are now generally available!</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/blog/images/jbds9.png" alt="jbds9" />
+      </div>
+      </div>
+      <div class="admonitionblock caution">
+      <table>
+      <tr>
+      <td class="icon">
+      <i class="fa icon-caution" title="Caution"></i>
+      </td>
+      <td class="content">
+      Java 8 is required for installing and using JBoss Tools. We still support developing and running applications using older Java runtimes. See more in <a href="https://tools.jboss.org/blog/2015-06-23-beta1-for-mars.html#java-8-to-run-eclipse-older-runtimes-ok-for-builds-deployment">Beta1 blog</a>.
+      </td>
+      </tr>
+      </table>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="installation"><a class="anchor" href="#installation"></a>Installation</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>JBoss Developer Studio comes with everything pre-bundled in its installer. Simply download it from our <a href="https://www.jboss.org/products/devstudio.html">JBoss Products page</a> and run it like this:</p>
+      </div>
+      <div class="literalblock">
+      <div class="content">
+      <pre>java -jar jboss-devstudio-&lt;installername&gt;.jar</pre>
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>JBoss Tools or Bring-Your-Own-Eclipse (BYOE) JBoss Developer Studio require a bit more:</p>
+      </div>
+      <div class="paragraph">
+      <p>This release requires at least Eclipse 4.5 (Mars) but we recommend
+      using the latest <a href="http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/marsr">Eclipse 4.5.1 Mars JEE Bundle</a> since then you get most of the dependencies preinstalled.</p>
+      </div>
+      <div class="paragraph">
+      <p>Once you have installed Eclipse, you can either find us on the Eclipse Marketplace under &quot;JBoss Tools&quot; or &quot;Red Hat JBoss Developer Studio&quot;.</p>
+      </div>
+      <div class="paragraph">
+      <p>For JBoss Tools, you can also use our update site directly.</p>
+      </div>
+      <div class="literalblock">
+      <div class="content">
+      <pre>http://download.jboss.org/jbosstools/mars/stable/updates/</pre>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="what-is-new"><a class="anchor" href="#what-is-new"></a>What is new ?</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>There are many new features and improvements. The full list of what is new you can find on <a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html">this page</a>.
+      Hundreds of bugs have been fixed on JBoss Tools side but we also continue to work on making Eclipse better and contribute to many Eclipse projects: Web Tools, Docker, Maven Integration, JavaScript, Hybrid Mobile Tools and many others.</p>
+      </div>
+      <div class="paragraph">
+      <p>Let me highlight just a few major features in JBoss Tools 4.3 and JBoss Developer Studio 9.</p>
+      </div>
+      <div class="sect2">
+      <h3 id="openshift-3"><a class="anchor" href="#openshift-3"></a>OpenShift 3</h3>
+      <div class="paragraph">
+      <p>There is a new tooling available to help you with OpenShift 3 application development.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/new-connection-wizard.png" alt="new connection wizard" />
+      </div>
+      </div>
+      <div class="paragraph">
+      <p>OpenShift 3 tooling is provided as a TechPreview feature, available from the JBoss Central Software/Updates page.
+      We are working on improving OpenShift 3 tooling and it will be included in JBoss Developer Studio by default as a Supported feature in the upcoming months.</p>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="docker"><a class="anchor" href="#docker"></a>Docker</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>Tooling for Docker is available in Eclipse Mars under the <a href="http://eclipse.org/linuxtools">Linux tools</a>
+      umbrella. Despite this name, this works on all major developer platforms. It
+      is mirrored on <a href="https://tools.jboss.org/downloads/jbosstools/mars/4.3.0.Final.html">JBoss Tools update site</a>
+      and is also included in Developer Studio 9.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/docker/images/docker_mars1/docker_explorer_view.png" alt="docker explorer view" />
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="batch"><a class="anchor" href="#batch"></a>Batch</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>Java EE 7 Batch Tools include an advanced Job XML editor, wizards, validation, navigation, and other features.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/documentation/whatsnew/batch/images/4.3.0.Beta1/diagram.png" alt="diagram" />
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="and-much-more"><a class="anchor" href="#and-much-more"></a>And much more</h3>
+      <div class="ulist">
+      <ul>
+      <li>
+      <p><a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#easier-import-of-projects">Easier import</a></p>
+      </li>
+      <li>
+      <p>Better <a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#arquillian">Arquillian</a> support</p>
+      </li>
+      <li>
+      <p><a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#aerogear">Hybrid Mobile Tools</a> improvements</p>
+      </li>
+      <li>
+      <p><a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#cdi">CDI 1.2</a> support</p>
+      </li>
+      <li>
+      <p><a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#javascript">Bower</a> tooling</p>
+      </li>
+      <li>
+      <p><a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#javascript-editing-improvements">JavaScript Editing</a> improvements</p>
+      </li>
+      <li>
+      <p>New and improved <a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#central">JBoss Central</a> page</p>
+      </li>
+      <li>
+      <p><a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#content-assist-for-angular-expressions">Content assist for Angular expressions</a></p>
+      </li>
+      <li>
+      <p><a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#livereloa">Quick access to launch LiveReload</a></p>
+      </li>
+      <li>
+      <p>News in <a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#maven-repository-wizard">Maven Repository Wizard</a></p>
+      </li>
+      <li>
+      <p><a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#examples">Offline support for Examples in JBoss Central</a></p>
+      </li>
+      <li>
+      <p>New <a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#server">WildFly 9</a></p>
+      </li>
+      <li>
+      <p><a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#webservices">Content assist for methods in websocket endpoint classes</a></p>
+      </li>
+      <li>
+      <p>..and <a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html">others</a></p>
+      </li>
+      </ul>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="where-is-integration-stack-tooling"><a class="anchor" href="#where-is-integration-stack-tooling"></a>Where is integration stack tooling?</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>The integration stack covers the tooling for Fuse, Drools, jBPM, SwitchYard, JBoss ESB etc.</p>
+      </div>
+      <div class="paragraph">
+      <p>They are available as &quot;Early access&quot; in JBoss Tools under JBoss Central Software/Update page.</p>
+      </div>
+      <div class="paragraph">
+      <p>In the near future it is planned to also show up in JBoss Developer Studio and eventually be available as fully supported.</p>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="what-is-next"><a class="anchor" href="#what-is-next"></a>What is Next</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>Having JBoss Tools 4.3 and JBoss Developer Studio 9 out we are already working on the next maintenance release for Eclipse Mars. We are also working on Eclipse Neon adoption.</p>
+      </div>
+      <div class="paragraph">
+      <p>Enjoy!</p>
+      </div>
+      <div class="paragraph">
+      <p>Alexey Kazakov</p>
+      </div>
+      </div>
+      </div></div>
+    ]]></summary>
+	<content type="html">&lt;html&gt;&lt;body&gt;&lt;div&gt;&lt;div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;a href="https://tools.jboss.org/downloads/jbosstools/mars/4.3.0.Final.html" target="_blank"&gt;JBoss Tools 4.3&lt;/a&gt; and &lt;a href="https://tools.jboss.org/downloads/devstudio/mars/9.0.0.GA.html" target="_blank"&gt;Red Hat JBoss Developer Studio 9&lt;/a&gt; for Eclipse Mars are now generally available!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/blog/images/jbds9.png" alt="jbds9"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;table&gt;&lt;tr&gt;&lt;td&gt;
+      &lt;i title="Caution"&gt;&lt;/i&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+      Java 8 is required for installing and using JBoss Tools. We still support developing and running applications using older Java runtimes. See more in &lt;a href="https://tools.jboss.org/blog/2015-06-23-beta1-for-mars.html#java-8-to-run-eclipse-older-runtimes-ok-for-builds-deployment" target="_blank"&gt;Beta1 blog&lt;/a&gt;.
+      &lt;/td&gt;
+      &lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#installation" target="_blank"&gt;&lt;/a&gt;Installation&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;JBoss Developer Studio comes with everything pre-bundled in its installer. Simply download it from our &lt;a href="https://www.jboss.org/products/devstudio.html" target="_blank"&gt;JBoss Products page&lt;/a&gt; and run it like this:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;pre&gt;java -jar jboss-devstudio-&amp;lt;installername&amp;gt;.jar&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;JBoss Tools or Bring-Your-Own-Eclipse (BYOE) JBoss Developer Studio require a bit more:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;This release requires at least Eclipse 4.5 (Mars) but we recommend
+      using the latest &lt;a href="http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/marsr" target="_blank"&gt;Eclipse 4.5.1 Mars JEE Bundle&lt;/a&gt; since then you get most of the dependencies preinstalled.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Once you have installed Eclipse, you can either find us on the Eclipse Marketplace under "JBoss Tools" or "Red Hat JBoss Developer Studio".&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;For JBoss Tools, you can also use our update site directly.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;pre&gt;http://download.jboss.org/jbosstools/mars/stable/updates/&lt;/pre&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#what-is-new" target="_blank"&gt;&lt;/a&gt;What is new ?&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;There are many new features and improvements. The full list of what is new you can find on &lt;a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html" target="_blank"&gt;this page&lt;/a&gt;.
+      Hundreds of bugs have been fixed on JBoss Tools side but we also continue to work on making Eclipse better and contribute to many Eclipse projects: Web Tools, Docker, Maven Integration, JavaScript, Hybrid Mobile Tools and many others.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Let me highlight just a few major features in JBoss Tools 4.3 and JBoss Developer Studio 9.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#openshift-3" target="_blank"&gt;&lt;/a&gt;OpenShift 3&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;There is a new tooling available to help you with OpenShift 3 application development.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/openshift/images/new-connection-wizard.png" alt="new connection wizard"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;OpenShift 3 tooling is provided as a TechPreview feature, available from the JBoss Central Software/Updates page.
+      We are working on improving OpenShift 3 tooling and it will be included in JBoss Developer Studio by default as a Supported feature in the upcoming months.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#docker" target="_blank"&gt;&lt;/a&gt;Docker&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Tooling for Docker is available in Eclipse Mars under the &lt;a href="http://eclipse.org/linuxtools" target="_blank"&gt;Linux tools&lt;/a&gt;
+      umbrella. Despite this name, this works on all major developer platforms. It
+      is mirrored on &lt;a href="https://tools.jboss.org/downloads/jbosstools/mars/4.3.0.Final.html" target="_blank"&gt;JBoss Tools update site&lt;/a&gt;
+      and is also included in Developer Studio 9.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/docker/images/docker_mars1/docker_explorer_view.png" alt="docker explorer view"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#batch" target="_blank"&gt;&lt;/a&gt;Batch&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Java EE 7 Batch Tools include an advanced Job XML editor, wizards, validation, navigation, and other features.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/documentation/whatsnew/batch/images/4.3.0.Beta1/diagram.png" alt="diagram"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#and-much-more" target="_blank"&gt;&lt;/a&gt;And much more&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;ul&gt;&lt;li&gt;
+      &lt;p&gt;&lt;a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#easier-import-of-projects" target="_blank"&gt;Easier import&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;Better &lt;a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#arquillian" target="_blank"&gt;Arquillian&lt;/a&gt; support&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#aerogear" target="_blank"&gt;Hybrid Mobile Tools&lt;/a&gt; improvements&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#cdi" target="_blank"&gt;CDI 1.2&lt;/a&gt; support&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#javascript" target="_blank"&gt;Bower&lt;/a&gt; tooling&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#javascript-editing-improvements" target="_blank"&gt;JavaScript Editing&lt;/a&gt; improvements&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;New and improved &lt;a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#central" target="_blank"&gt;JBoss Central&lt;/a&gt; page&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#content-assist-for-angular-expressions" target="_blank"&gt;Content assist for Angular expressions&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#livereloa" target="_blank"&gt;Quick access to launch LiveReload&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;News in &lt;a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#maven-repository-wizard" target="_blank"&gt;Maven Repository Wizard&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#examples" target="_blank"&gt;Offline support for Examples in JBoss Central&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;New &lt;a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#server" target="_blank"&gt;WildFly 9&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;&lt;a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html#webservices" target="_blank"&gt;Content assist for methods in websocket endpoint classes&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;p&gt;..and &lt;a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.Final.html" target="_blank"&gt;others&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#where-is-integration-stack-tooling" target="_blank"&gt;&lt;/a&gt;Where is integration stack tooling?&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;The integration stack covers the tooling for Fuse, Drools, jBPM, SwitchYard, JBoss ESB etc.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;They are available as "Early access" in JBoss Tools under JBoss Central Software/Update page.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;In the near future it is planned to also show up in JBoss Developer Studio and eventually be available as fully supported.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#what-is-next" target="_blank"&gt;&lt;/a&gt;What is Next&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Having JBoss Tools 4.3 and JBoss Developer Studio 9 out we are already working on the next maintenance release for Eclipse Mars. We are also working on Eclipse Neon adoption.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Enjoy!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Alexey Kazakov&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/McXYFjY8Z8Q" height="1" width="1" alt=""/&gt;</content>
+	<updated>2016-12-12T22:16:17+00:00</updated>
+	<author><name>akazakov</name></author>
+	<source>
+		<link rel="self" href="http://tools.jboss.org/blog/" />
+		<title>JBoss Tools</title></source>
+
+	<category term="release" />
+
+	<category term="jbosstools" />
+
+	<category term="devstudio" />
+
+	<category term="jbosscentral" />
+
+
+<feedburner:origLink>https://tools.jboss.org/blog/ga-for-mars.html</feedburner:origLink></entry>
+
+<entry>
+	<id>https://tools.jboss.org/blog/cr1-for-mars.html</id>
+	<link href="http://feedproxy.google.com/~r/jbossbuzz/~3/na3XsyLjI2w/cr1-for-mars.html" rel="alternate" type="text/html" />
+	<title>CR1 for Eclipse Mars - more Docker, OpenShift and WildFly 10</title>
+	<summary type="html"><![CDATA[
+      <div><div id="preamble">
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>We are happy to announce <a href="https://tools.jboss.org/downloads/jbosstools/mars/4.3.0.CR1.html">JBoss Tools 4.3 CR1</a> and <a href="https://tools.jboss.org/downloads/devstudio/mars/9.0.0.CR1.html">Red Hat JBoss Developer Studio 9 CR1</a> for Eclipse Mars are now available.</p>
+      </div>
+      <div class="paragraph">
+      <p>Note: Integration Stack tooling will become available from JBoss Central at a later date.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="https://tools.jboss.org/blog/images/jbosstools-jbdevstudio-blog-header.png" alt="jbosstools jbdevstudio blog header" />
+      </div>
+      </div>
+      <div class="admonitionblock caution">
+      <table>
+      <tr>
+      <td class="icon">
+      <i class="fa icon-caution" title="Caution"></i>
+      </td>
+      <td class="content">
+      Remember that since Beta1 we require Java 8 for installing and using of
+      JBoss Tools. We still support developing and running applications using older Java runtimes. See more in <a href="https://tools.jboss.org/blog/2015-06-23-beta1-for-mars.html#java-8-to-run-eclipse-older-runtimes-ok-for-builds-deployment">Beta1 blog</a>.
+      </td>
+      </tr>
+      </table>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="what-is-new"><a class="anchor" href="#what-is-new"></a>What is new ?</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>The full details of what is new is available on <a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.CR1.html">this page</a>. Some highlights are below.</p>
+      </div>
+      <div class="sect2">
+      <h3 id="wildfly-10-and-eap-7-server-adapters"><a class="anchor" href="#wildfly-10-and-eap-7-server-adapters"></a>WildFly 10 and EAP 7 Server Adapters</h3>
+      <div class="paragraph">
+      <p>New server adapters for JBoss EAP 7 and WildFly 10 have been added to the toolset, allowing you to enjoy all the past benefits, but with all the newest runtimes.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="./images/cr1-for-mars/wildfly10.png" alt="wildfly10" width="500" />
+      </div>
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="quick-access-to-launch-livereload"><a class="anchor" href="#quick-access-to-launch-livereload"></a>Quick Access to Launch LiveReload</h3>
+      <div class="paragraph">
+      <p>Users can now launch LiveReload from the &apos;Quick Access&apos; menu, or using the Ctrl+3 (or Cmd+3) keyboard shortcut.</p>
+      </div>
+      <div class="paragraph">
+      <p>This will first display the dialog to create and start a LiveReload server.
+      Then, this will open the current element (a selected file in the Project Explorer, a selected module in the Servers view or the content of the active editor)
+      in the browser, without even having to use the &apos;Open With&gt;Web Browser via LiveReload Server&apos; contextual menu.</p>
+      </div>
+      <div class="imageblock">
+      <div class="content">
+      <img src="./images/cr1-for-mars/livereload_quick_access.png" alt="livereload quick access" width="500" />
+      </div>
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="openshift-3"><a class="anchor" href="#openshift-3"></a>OpenShift 3</h3>
+      <div class="paragraph">
+      <p>We have made great progress in the OpenShift 3 Eclipse Tooling, but a few features are still missing, like deploying an existing workspace project, or editing existing build configurations.
+      We have some ideas to provide an even better OpenShift Explorer user experience.</p>
+      </div>
+      <div class="paragraph">
+      <p>OpenShift 3 tooling is provided as a TechPreview feature, available from the JBoss Central Software/Updates page.
+      Once we are fully satisfied with the quality of its feature set, OpenShift 3 tooling will mature to a Supported feature in the upcoming months, and will then be installed by default in JBDS.</p>
+      </div>
+      <div class="paragraph">
+      <p>But despite the fact that OpenShift 3 is still in TechPreview status in this release there are many improvements.
+      Such as enhancements in the Application wizard or a link to the online documentation from the connection wizard for OpenShift 3. Hopefully that should help you get started with OpenShift 3 in Eclipse:</p>
+      </div>
+      <div class="paragraph">
+      <p><span class="image"><img src="./../documentation/whatsnew/openshift/images/openshift3-getting-started.png" alt="openshift3-getting-started" width="500" /></span></p>
+      </div>
+      <div class="paragraph">
+      <p>Improvements in OpenShift Explorer:</p>
+      </div>
+      <div class="paragraph">
+      <p><span class="image"><img src="./../documentation/whatsnew/openshift/images/openshift-menus.gif" alt="openshift-menus" /></span></p>
+      </div>
+      <div class="paragraph">
+      <p>Easy setup for &apos;oc&apos; binary and log streaming:</p>
+      </div>
+      <div class="paragraph">
+      <p><span class="image"><img src="./../documentation/whatsnew/openshift/images/stream-logs.gif" alt="stream-logs" /></span></p>
+      </div>
+      <div class="paragraph">
+      <p>Integration with Docker tooling:</p>
+      </div>
+      <div class="paragraph">
+      <p><span class="image"><img src="./../documentation/whatsnew/openshift/images/deploy_image_menu.png" alt="deploy_image_menu" width="500" /></span></p>
+      </div>
+      <div class="paragraph">
+      <p>And other <a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.CR1.html#docker">features</a> + almost a hundred fixed bugs.</p>
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="java-ee-batch-tooling"><a class="anchor" href="#java-ee-batch-tooling"></a>Java EE Batch Tooling</h3>
+      <div class="paragraph">
+      <p>Quick Fixes for validation problems in Batch Job XML source editor.</p>
+      </div>
+      <div class="paragraph">
+      <p><span class="image"><img src="./../documentation/whatsnew/batch/images/4.3.0.CR1/qf.png" alt="qf" /></span></p>
+      </div>
+      <div class="paragraph">
+      <p>The Quick Fixes open a pre-set New Batch Artifact wizard to create the missing artifact.</p>
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="new-maven-red-hat-ga-repository"><a class="anchor" href="#new-maven-red-hat-ga-repository"></a>New Maven Red Hat GA repository</h3>
+      <div class="paragraph">
+      <p>In the Maven Repository Configuration wizard, accessible from <code>Preferences</code> &gt; <code>JBoss Tools</code> &gt; <code>JBoss Maven Integration</code> &gt; <code>Configure Maven Repositories…​</code>,
+      the predefined <code>Red Hat TechPreview All</code> Maven repository has been replaced with the new,
+      official <code>Red Hat GA</code> (GA: General Availability) repository, for released Red Hat JBoss Middleware artifacts.</p>
+      </div>
+      <div class="paragraph">
+      <p>It is recommended you replace the old <code>TechPreview All</code> repository with the new <code>GA</code> one, in your Maven settings.xml.</p>
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="offline-support-for-project-examples-in-jboss-central"><a class="anchor" href="#offline-support-for-project-examples-in-jboss-central"></a>Offline Support for Project Examples in JBoss Central</h3>
+      <div class="paragraph">
+      <p>In the updated <a href="4.3.0.Beta1.html#central">JBoss Central page</a>, you now have access to more than 200 project
+       examples. All these examples and their dependencies can now be cached locally via the
+       Groovy Offline script, available from <code>Preferences</code> &gt; <code>JBoss Tools</code> &gt; <code>Project Examples</code> &gt; <code>Offline Support</code>.</p>
+      </div>
+      </div>
+      <div class="sect2">
+      <h3 id="eclipse-mars-1-with-better-docker-tooling"><a class="anchor" href="#eclipse-mars-1-with-better-docker-tooling"></a>Eclipse Mars.1 with better Docker tooling</h3>
+      <div class="paragraph">
+      <p>This version of JBoss Tools targets Eclipse Mars.1 which besides many bug fixes has some noteworthy improvements such as a better Docker tooling.
+      We worked on the Docker tooling to make it rock in JBoss Tools with OpenShift support - so we wanted to highlight these improvements.</p>
+      </div>
+      <div class="sect3">
+      <h4 id="running-paused-stopped-docker-containers"><a class="anchor" href="#running-paused-stopped-docker-containers"></a>Running/paused/stopped Docker containers</h4>
+      <div class="paragraph">
+      <p>New icon decorators in Docker Explorer View show the state of the docker containers. This makes it clearer if a container is running, paused or stopped.</p>
+      </div>
+      <div class="paragraph">
+      <p><span class="image"><img src="./../documentation/whatsnew/docker/images/docker_mars1/docker_explorer_view.png" alt="docker_explorer_view" width="500" /></span></p>
+      </div>
+      </div>
+      <div class="sect3">
+      <h4 id="new-dialog-to-search-and-pull-images"><a class="anchor" href="#new-dialog-to-search-and-pull-images"></a>New Dialog to Search and Pull Images</h4>
+      <div class="paragraph">
+      <p>There is an updated Pull Image wizard which can be launched from the Docker Images view or from the Docker Explorer view (a new context menu entry is available on the connection node and on the Images node):</p>
+      </div>
+      <div class="paragraph">
+      <p><span class="image"><img src="./../documentation/whatsnew/docker/images/docker_mars1/docker_pull_image_wizard.png" alt="docker_pull_image_wizard" width="500" /></span></p>
+      </div>
+      <div class="paragraph">
+      <p>The wizard detects the tag in the image name and if none is specified, the image tagged <code>latest</code> will be pulled.
+      If the user needs to search a specific image name, he or she can click on the <code>Search…​</code> button which will open the <code>Search</code> wizard:</p>
+      </div>
+      <div class="paragraph">
+      <p><span class="image"><img src="./../documentation/whatsnew/docker/images/docker_mars1/docker_search_image_wizard1.png" alt="docker_search_image_wizard1" width="500" /></span></p>
+      </div>
+      <div class="paragraph">
+      <p>followed by a second page that displays all the tags for the selected image.</p>
+      </div>
+      </div>
+      <div class="sect3">
+      <h4 id="new-launcher-to-build-a-docker-image"><a class="anchor" href="#new-launcher-to-build-a-docker-image"></a>New Launcher to Build a Docker Image</h4>
+      <div class="paragraph">
+      <p>We have also added a new launcher to build images from a Dockerfile.</p>
+      </div>
+      <div class="paragraph">
+      <p><span class="image"><img src="./../documentation/whatsnew/docker/images/docker_mars1/docker_image_build_launcher.png" alt="docker_image_build_launcher" width="500" /></span></p>
+      </div>
+      <div class="paragraph">
+      <p>You can find more details about this and other new stuff in Docker tooling <a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.CR1.html#docker">here</a>.</p>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="sect1">
+      <h2 id="what-is-next"><a class="anchor" href="#what-is-next"></a>What is Next</h2>
+      <div class="sectionbody">
+      <div class="paragraph">
+      <p>With CR1 out we are heading towards a final release.</p>
+      </div>
+      <div class="paragraph">
+      <p>Have fun!</p>
+      </div>
+      <div class="paragraph">
+      <p>Alexey Kazakov</p>
+      </div>
+      </div>
+      </div></div>
+    ]]></summary>
+	<content type="html">&lt;html&gt;&lt;body&gt;&lt;div&gt;&lt;div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;We are happy to announce &lt;a href="https://tools.jboss.org/downloads/jbosstools/mars/4.3.0.CR1.html" target="_blank"&gt;JBoss Tools 4.3 CR1&lt;/a&gt; and &lt;a href="https://tools.jboss.org/downloads/devstudio/mars/9.0.0.CR1.html" target="_blank"&gt;Red Hat JBoss Developer Studio 9 CR1&lt;/a&gt; for Eclipse Mars are now available.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Note: Integration Stack tooling will become available from JBoss Central at a later date.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="https://tools.jboss.org/blog/images/jbosstools-jbdevstudio-blog-header.png" alt="jbosstools jbdevstudio blog header"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;table&gt;&lt;tr&gt;&lt;td&gt;
+      &lt;i title="Caution"&gt;&lt;/i&gt;
+      &lt;/td&gt;
+      &lt;td&gt;
+      Remember that since Beta1 we require Java 8 for installing and using of
+      JBoss Tools. We still support developing and running applications using older Java runtimes. See more in &lt;a href="https://tools.jboss.org/blog/2015-06-23-beta1-for-mars.html#java-8-to-run-eclipse-older-runtimes-ok-for-builds-deployment" target="_blank"&gt;Beta1 blog&lt;/a&gt;.
+      &lt;/td&gt;
+      &lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#what-is-new" target="_blank"&gt;&lt;/a&gt;What is new ?&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;The full details of what is new is available on &lt;a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.CR1.html" target="_blank"&gt;this page&lt;/a&gt;. Some highlights are below.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#wildfly-10-and-eap-7-server-adapters" target="_blank"&gt;&lt;/a&gt;WildFly 10 and EAP 7 Server Adapters&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;New server adapters for JBoss EAP 7 and WildFly 10 have been added to the toolset, allowing you to enjoy all the past benefits, but with all the newest runtimes.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="./images/cr1-for-mars/wildfly10.png" alt="wildfly10" width="500"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#quick-access-to-launch-livereload" target="_blank"&gt;&lt;/a&gt;Quick Access to Launch LiveReload&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;Users can now launch LiveReload from the 'Quick Access' menu, or using the Ctrl+3 (or Cmd+3) keyboard shortcut.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;This will first display the dialog to create and start a LiveReload server.
+      Then, this will open the current element (a selected file in the Project Explorer, a selected module in the Servers view or the content of the active editor)
+      in the browser, without even having to use the 'Open With&amp;gt;Web Browser via LiveReload Server' contextual menu.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;img src="./images/cr1-for-mars/livereload_quick_access.png" alt="livereload quick access" width="500"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#openshift-3" target="_blank"&gt;&lt;/a&gt;OpenShift 3&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;We have made great progress in the OpenShift 3 Eclipse Tooling, but a few features are still missing, like deploying an existing workspace project, or editing existing build configurations.
+      We have some ideas to provide an even better OpenShift Explorer user experience.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;OpenShift 3 tooling is provided as a TechPreview feature, available from the JBoss Central Software/Updates page.
+      Once we are fully satisfied with the quality of its feature set, OpenShift 3 tooling will mature to a Supported feature in the upcoming months, and will then be installed by default in JBDS.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;But despite the fact that OpenShift 3 is still in TechPreview status in this release there are many improvements.
+      Such as enhancements in the Application wizard or a link to the online documentation from the connection wizard for OpenShift 3. Hopefully that should help you get started with OpenShift 3 in Eclipse:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;span&gt;&lt;img src="./../documentation/whatsnew/openshift/images/openshift3-getting-started.png" alt="openshift3-getting-started" width="500"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Improvements in OpenShift Explorer:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;span&gt;&lt;img src="./../documentation/whatsnew/openshift/images/openshift-menus.gif" alt="openshift-menus"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Easy setup for 'oc' binary and log streaming:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;span&gt;&lt;img src="./../documentation/whatsnew/openshift/images/stream-logs.gif" alt="stream-logs"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Integration with Docker tooling:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;span&gt;&lt;img src="./../documentation/whatsnew/openshift/images/deploy_image_menu.png" alt="deploy_image_menu" width="500"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;And other &lt;a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.CR1.html#docker" target="_blank"&gt;features&lt;/a&gt; + almost a hundred fixed bugs.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#java-ee-batch-tooling" target="_blank"&gt;&lt;/a&gt;Java EE Batch Tooling&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;Quick Fixes for validation problems in Batch Job XML source editor.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;span&gt;&lt;img src="./../documentation/whatsnew/batch/images/4.3.0.CR1/qf.png" alt="qf"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;The Quick Fixes open a pre-set New Batch Artifact wizard to create the missing artifact.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#new-maven-red-hat-ga-repository" target="_blank"&gt;&lt;/a&gt;New Maven Red Hat GA repository&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;In the Maven Repository Configuration wizard, accessible from &lt;code&gt;Preferences&lt;/code&gt; &amp;gt; &lt;code&gt;JBoss Tools&lt;/code&gt; &amp;gt; &lt;code&gt;JBoss Maven Integration&lt;/code&gt; &amp;gt; &lt;code&gt;Configure Maven Repositories&amp;hellip;&amp;#8203;&lt;/code&gt;,
+      the predefined &lt;code&gt;Red Hat TechPreview All&lt;/code&gt; Maven repository has been replaced with the new,
+      official &lt;code&gt;Red Hat GA&lt;/code&gt; (GA: General Availability) repository, for released Red Hat JBoss Middleware artifacts.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;It is recommended you replace the old &lt;code&gt;TechPreview All&lt;/code&gt; repository with the new &lt;code&gt;GA&lt;/code&gt; one, in your Maven settings.xml.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#offline-support-for-project-examples-in-jboss-central" target="_blank"&gt;&lt;/a&gt;Offline Support for Project Examples in JBoss Central&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;In the updated &lt;a href="4.3.0.Beta1.html#central" target="_blank"&gt;JBoss Central page&lt;/a&gt;, you now have access to more than 200 project
+       examples. All these examples and their dependencies can now be cached locally via the
+       Groovy Offline script, available from &lt;code&gt;Preferences&lt;/code&gt; &amp;gt; &lt;code&gt;JBoss Tools&lt;/code&gt; &amp;gt; &lt;code&gt;Project Examples&lt;/code&gt; &amp;gt; &lt;code&gt;Offline Support&lt;/code&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h3&gt;&lt;a href="#eclipse-mars-1-with-better-docker-tooling" target="_blank"&gt;&lt;/a&gt;Eclipse Mars.1 with better Docker tooling&lt;/h3&gt;
+      &lt;div&gt;
+      &lt;p&gt;This version of JBoss Tools targets Eclipse Mars.1 which besides many bug fixes has some noteworthy improvements such as a better Docker tooling.
+      We worked on the Docker tooling to make it rock in JBoss Tools with OpenShift support - so we wanted to highlight these improvements.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h4&gt;&lt;a href="#running-paused-stopped-docker-containers" target="_blank"&gt;&lt;/a&gt;Running/paused/stopped Docker containers&lt;/h4&gt;
+      &lt;div&gt;
+      &lt;p&gt;New icon decorators in Docker Explorer View show the state of the docker containers. This makes it clearer if a container is running, paused or stopped.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;span&gt;&lt;img src="./../documentation/whatsnew/docker/images/docker_mars1/docker_explorer_view.png" alt="docker_explorer_view" width="500"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h4&gt;&lt;a href="#new-dialog-to-search-and-pull-images" target="_blank"&gt;&lt;/a&gt;New Dialog to Search and Pull Images&lt;/h4&gt;
+      &lt;div&gt;
+      &lt;p&gt;There is an updated Pull Image wizard which can be launched from the Docker Images view or from the Docker Explorer view (a new context menu entry is available on the connection node and on the Images node):&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;span&gt;&lt;img src="./../documentation/whatsnew/docker/images/docker_mars1/docker_pull_image_wizard.png" alt="docker_pull_image_wizard" width="500"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;The wizard detects the tag in the image name and if none is specified, the image tagged &lt;code&gt;latest&lt;/code&gt; will be pulled.
+      If the user needs to search a specific image name, he or she can click on the &lt;code&gt;Search&amp;hellip;&amp;#8203;&lt;/code&gt; button which will open the &lt;code&gt;Search&lt;/code&gt; wizard:&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;span&gt;&lt;img src="./../documentation/whatsnew/docker/images/docker_mars1/docker_search_image_wizard1.png" alt="docker_search_image_wizard1" width="500"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;followed by a second page that displays all the tags for the selected image.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h4&gt;&lt;a href="#new-launcher-to-build-a-docker-image" target="_blank"&gt;&lt;/a&gt;New Launcher to Build a Docker Image&lt;/h4&gt;
+      &lt;div&gt;
+      &lt;p&gt;We have also added a new launcher to build images from a Dockerfile.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;&lt;span&gt;&lt;img src="./../documentation/whatsnew/docker/images/docker_mars1/docker_image_build_launcher.png" alt="docker_image_build_launcher" width="500"&gt;&lt;/span&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;You can find more details about this and other new stuff in Docker tooling &lt;a href="https://tools.jboss.org/documentation/whatsnew/jbosstools/4.3.0.CR1.html#docker" target="_blank"&gt;here&lt;/a&gt;.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;h2&gt;&lt;a href="#what-is-next" target="_blank"&gt;&lt;/a&gt;What is Next&lt;/h2&gt;
+      &lt;div&gt;
+      &lt;div&gt;
+      &lt;p&gt;With CR1 out we are heading towards a final release.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Have fun!&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+      &lt;p&gt;Alexey Kazakov&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;
+&lt;img src="http://feeds.feedburner.com/~r/jbossbuzz/~4/na3XsyLjI2w" height="1" width="1" alt=""/&gt;</content>
+	<updated>2016-12-12T22:16:17+00:00</updated>
+	<author><name>akazakov</name></author>
+	<source>
+		<link rel="self" href="http://tools.jboss.org/blog/" />
+		<title>JBoss Tools</title></source>
+
+	<category term="release" />
+
+	<category term="jbosstools" />
+
+	<category term="devstudio" />
+
+	<category term="jbosscentral" />
+
+
+<feedburner:origLink>https://tools.jboss.org/blog/cr1-for-mars.html</feedburner:origLink></entry>
+
+
+</feed><!-- vim:ft=xml
+	  -->

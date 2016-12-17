@@ -1,0 +1,121 @@
+Gene Cluster 15	Enrichment Score: 3.5773149641597226
+ID	Gene Name
+33979_at	ribonuclease A family member 3(RNASE3)
+34623_at	defensin alpha 5(DEFA5)
+34546_at	defensin alpha 4(DEFA4)
+36766_at	ribonuclease A family member 2(RNASE2)
+31506_s_at, 31793_at	defensin alpha 1(DEFA1)
+
+Gene Cluster 14	Enrichment Score: 2.6264302189665494
+ID	Gene Name
+35915_at	inhibin beta C subunit(INHBC)
+36328_at	sex hormone binding globulin(SHBG)
+1890_at	growth differentiation factor 15(GDF15)
+
+Gene Cluster 17	Enrichment Score: 2.3595699314529797
+ID	Gene Name
+37454_at	C-C motif chemokine ligand 13(CCL13)
+1403_s_at	C-C motif chemokine ligand 5(CCL5)
+36703_at	C-C motif chemokine ligand 25(CCL25)
+
+Gene Cluster 13	Enrichment Score: 2.05382303555941
+ID	Gene Name
+33963_at	azurocidin 1(AZU1)
+679_at, 37105_at	cathepsin G(CTSG)
+37096_at	elastase, neutrophil expressed(ELANE)
+
+Gene Cluster 19	Enrichment Score: 1.8052364009015924
+ID	Gene Name
+35090_g_at, 35091_at	neuregulin 2(NRG2)
+1786_at	MER proto-oncogene, tyrosine kinase(MERTK)
+1901_s_at	erb-b2 receptor tyrosine kinase 2(ERBB2)
+1355_g_at	neurotrophic receptor tyrosine kinase 2(NTRK2)
+1112_g_at	neural cell adhesion molecule 1(NCAM1)
+35956_s_at	pregnancy specific beta-1-glycoprotein 4(PSG4)
+37968_at	natural cytotoxicity triggering receptor 3(NCR3)
+35038_at	myosin binding protein C, cardiac(MYBPC3)
+33530_at	carcinoembryonic antigen related cell adhesion molecule 8(CEACAM8)
+32469_at	carcinoembryonic antigen related cell adhesion molecule 3(CEACAM3)
+
+Gene Cluster 8	Enrichment Score: 1.7254437506781937
+ID	Gene Name
+33516_at	hemoglobin subunit delta(HBD)
+31687_f_at	hemoglobin subunit beta(HBB)
+31525_s_at	hemoglobin subunit alpha 1(HBA1)
+
+Gene Cluster 18	Enrichment Score: 1.3421832820145634
+ID	Gene Name
+35121_at	solute carrier family 6 member 6(SLC6A6)
+37953_s_at	acid sensing ion channel subunit 1(ASIC1)
+40317_at	acid sensing ion channel subunit 2(ASIC2)
+32439_at	ATPase H+/K+ transporting beta subunit(ATP4B)
+
+Gene Cluster 9	Enrichment Score: 1.25781200472061
+ID	Gene Name
+2090_i_at	Wnt family member 6(WNT6)
+33684_at	Wnt family member 2B(WNT2B)
+
+Gene Cluster 7	Enrichment Score: 1.2396091135356218
+ID	Gene Name
+35121_at	solute carrier family 6 member 6(SLC6A6)
+32469_at	carcinoembryonic antigen related cell adhesion molecule 3(CEACAM3)
+36378_at	uroplakin 1A(UPK1A)
+
+Gene Cluster 12	Enrichment Score: 1.158734009700268
+ID	Gene Name
+35121_at	solute carrier family 6 member 6(SLC6A6)
+34436_at	solute carrier family 17 member 3(SLC17A3)
+32084_at	solute carrier family 22 member 5(SLC22A5)
+37097_at	solute carrier family 17 member 1(SLC17A1)
+
+Gene Cluster 11	Enrichment Score: 0.631045623114395
+ID	Gene Name
+37983_at	angiotensin II receptor type 1(AGTR1)
+34467_g_at	5-hydroxytryptamine receptor 4(HTR4)
+
+Gene Cluster 6	Enrichment Score: 0.5845439166491043
+ID	Gene Name
+1575_at	ATP binding cassette subfamily B member 1(ABCB1)
+40294_at	ATP binding cassette subfamily B member 9(ABCB9)
+
+Gene Cluster 5	Enrichment Score: 0.5683125379645084
+ID	Gene Name
+1391_s_at	cytochrome P450 family 4 subfamily A member 11(CYP4A11)
+38229_at	cytochrome P450 family 3 subfamily A member 5(CYP3A5)
+
+Gene Cluster 4	Enrichment Score: 0.5495712750824577
+ID	Gene Name
+36234_at	eukaryotic translation initiation factor 4A1(EIF4A1)
+37814_g_at	DEAD-box helicase 51(DDX51)
+966_at, 967_g_at	RAD54-like (S. cerevisiae)(RAD54L)
+
+Gene Cluster 10	Enrichment Score: 0.46925819814764047
+ID	Gene Name
+39469_s_at	ATPase phospholipid transporting 8A2(ATP8A2)
+33685_at	ATPase phospholipid transporting 8B3(ATP8B3)
+
+Gene Cluster 2	Enrichment Score: 0.4269708446583397
+ID	Gene Name
+31715_at	testis expressed 28(TEX28)
+32469_at	carcinoembryonic antigen related cell adhesion molecule 3(CEACAM3)
+34629_at	tumor protein p53 inducible protein 11(TP53I11)
+
+Gene Cluster 3	Enrichment Score: 0.4237575756971909
+ID	Gene Name
+40186_at	dual specificity phosphatase 9(DUSP9)
+34249_at	epilepsy, progressive myoclonus type 2A, Lafora disease (laforin)(EPM2A)
+
+Gene Cluster 1	Enrichment Score: 0.37750718186365123
+ID	Gene Name
+33371_s_at	RAB31, member RAS oncogene family(RAB31)
+606_at	Rho family GTPase 2(RND2)
+
+Gene Cluster 16	Enrichment Score: 0.23126378415816493
+ID	Gene Name
+38945_at	metal regulatory transcription factor 1(MTF1)
+40790_at	basic helix-loop-helix family member e40(BHLHE40)
+34606_s_at	activating transcription factor 7(ATF7)
+41113_at	zinc finger protein 500(ZNF500)
+33922_at	PR/SET domain 2(PRDM2)
+
+
