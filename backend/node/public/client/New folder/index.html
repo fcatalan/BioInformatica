@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html lang = 'en'>
+ 
+<head>
+    <meta charset="utf-8">
+ 
+    <link rel="stylesheet" href="js/bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap-theme.min.css">
+    <link href="https://github.com/veg/phylotree.js/blob/master/phylotree.css" rel="stylesheet">
+    
+    <script src="js/jquery-1.10.1.min_1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="https://github.com/veg/phylotree.js/blob/master/phylotree.js"></script>
+</head>
+<body>
+  <div>
+      <form>
+        <label>Gráfico Radial
+        <input type = "checkbox" id = "layout" checked/> 
+      </form>
+  </div>
+  
+  
+  <svg id = "tree_display"></svg>
+  
+  <script>
+     
+var json='(20_1s0h-Do:0,3_2d5x-Hor:0,(((((((9_1a4f-Bar:0,10_1faw-Gr:0):0.002754407051,2_1jeb-Hum:0.03570713141):0.01342147436,((((8_1hbr-Chi:0.002976190476,12_1out-Tr:0.009844322344):0.005793885602,11_1wmu-Al:0.01984714004):0.0159527972,(14_1cg5-Ca:0.04024216524,17_1gcv-Ho:0.0495014245):0.03693181818):0.008092948718,((((13_2h8f-Em:0,15_3d1k-An:0):0.009615384615,18_1V4W-Bl:0.01602564103):0.009829059829,19_1xq5-Ye:0.02222222222):0.0186965812,16_1spg-Fi:0.04540598291):0.01354166667):0.01662660256):0.006450320513,4_1hds-Dee:0.007371794872):0.004832732372,(1_2dn3-Hum:-0.0004578754579,5_2qss-Cow:0.0004578754579):0.01179387019):0.0007178151709,7_1fhj-Man:0.01220285791):0.0006009615385,6_1qpw-Pig:-5.008012821e-05):5.008012821e-05);';
+              window.alert(d3_phylotree_newick_parser (json));
+			  var tree = d3.layout.phylotree() 
+                     .svg (d3.select ("#tree_display"))
+                     .radial (true);
+                    
+              tree (d3_phylotree_newick_parser (json)) 
+                   .layout(); 
+              window.alert(d3_phylotree_newick_parser (json));
+               $("#layout").on ("click", function (e) {
+                    tree.radial ($(this).prop ("checked")).placenodes().update ();
+              });     
+          
+  </script>
+  
+  <div>
+      <form>
+        <label>Gráfico Radial
+        <input type = "checkbox" id = "layout" checked/> 
+      </form>
+  </div>
+  
+
+  
+</body>
+</html>

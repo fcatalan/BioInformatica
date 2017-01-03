@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html lang = 'en'>
+ 
+<head>
+    <meta charset="utf-8">
+ 
+    <link rel="stylesheet" href="js/bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap-theme.min.css">
+    <link href="js/phylotree.css" rel="stylesheet">
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/d3.v3.min.js"></script>
+    <script src="js/phylotree.js"></script>
+</head>
+<body>
+  <div>
+      <form>
+        <label>Gráfico Radial
+        <input type = "checkbox" id = "layout" checked/> 
+      </form>
+  </div>
+  
+  
+  <svg id = "tree_display"></svg>
+  
+  <script>
+      d3.text ("data.nwk", function (error, newick) {
+
+              var tree = d3.layout.phylotree() 
+                     .svg (d3.select ("#tree_display"))
+                     .radial (true);
+  
+              tree (d3_phylotree_newick_parser (newick)) 
+                   .layout(); 
+               
+               $("#layout").on ("click", function (e) {
+                    tree.radial ($(this).prop ("checked")).placenodes().update ();
+              });     
+        });   
+  </script>
+  
+  <div>
+      <form>
+        <label>Gráfico Radial
+        <input type = "checkbox" id = "layout" checked/> 
+      </form>
+  </div>
+  
+
+  
+</body>
+</html>

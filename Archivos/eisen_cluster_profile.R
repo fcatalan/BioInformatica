@@ -1,7 +1,16 @@
+require("Rserve")
+Rserve()
+run.Rserve()
 
-setwd("C:/Users/jbele/Desktop")
+setwd("C:/Users/fcatalan/Desktop/BioInformatica/BioInformatica/Archivos")
 
-matriz_expresion<-as.data.frame(read.table("matriz_expresion.csv", header=T, sep=","))
+#source("sources/system/packages.R")         #Carga un conjunto de paquetes
+cat("\014")                                 #Limpiar consola
+library("RJSONIO")
+
+
+
+matriz_expresion<-as.data.frame(read.table("http://localhost:8081/BD_2_k_4_clustering_solutions.csv", header=T, sep=","))
 
 solucion_clustering<-as.data.frame(read.table("soluciones_clustering.csv", header=T, sep=","))
 
