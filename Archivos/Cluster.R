@@ -1,0 +1,10 @@
+library(Biobase)
+library(GEOquery)
+
+setwd("C:/Users/fcatalan/Desktop/BioInformatica/BioInformatica/Archivos")
+data <- read.csv(file='Spellman.csv', header=TRUE, row.names = 1)
+expresion_matrix<-as.matrix(data)
+expresion_matrix<-na.omit(expresion_matrix)
+result <- Kmeans(x = expresion_matrix, centers=4, method = "euclidean",iter.max = 1000, nstart = 1)
+plot(expresion_matrix, col = result$cluster)
+points(result$centers, col = 1:4, pch = 18, cex = 4)
