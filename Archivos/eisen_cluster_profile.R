@@ -36,7 +36,7 @@ for (cluster in 1:(max(solucion_clustering$X1))) {
   elementos_grupo=c(elementos_grupo,length(k))
 }
 
-#write.table(elementos_grupo, "num_genes_grupo.txt",row.names = FALSE, col.names = FALSE,quote=FALSE)
+write.table(elementos_grupo, "num_genes_grupo.txt",row.names = FALSE, col.names = FALSE,quote=FALSE)
 
 
 

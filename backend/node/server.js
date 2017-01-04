@@ -27,7 +27,8 @@ app.get('/testNodeR', function (req, res) {
 				command: `library("RJSONIO");
 						matriz_expresion<-as.data.frame(read.table("http://localhost:8081/BD_2_k_4_clustering_solutions.csv", header=T, sep=","));
 						solucion_clustering<-as.data.frame(read.table("http://localhost:8081/soluciones_clustering.csv", header=T, sep=","));
-						data=solucion_clustering_ordenada<-matriz_expresion[order(solucion_clustering$X1),];
+						solucion_clustering_ordenada<-matriz_expresion[order(solucion_clustering$X1),];
+						data=t(solucion_clustering_ordenada);
 						toJSON(data);
 						`
 //data=as.data.frame(read.table("http://localhost:8081/BD_2_k_4_clustering_solutions.csv", header=T, sep=","));
